@@ -4,8 +4,6 @@ $(() => {
 
     var snake = [
         {x: 50, y: 100, oldX: 0, oldY: 0},
-        {x: 50, y: 90, oldX: 0, oldY: 0},
-        {x: 50, y: 80, oldX: 0, oldY: 0}
     ];
 
     var food = {x: 200, y: 200, eaten: false}; // eaten is a flag var, defines until condition is true
@@ -100,7 +98,7 @@ $(() => {
     };
 
     function randomPosition() {
-        let xArr = yArr, xy;
+        let xArr = yArr = [], xy;
         $.each(snake, function(index, value){
             if($.inArray(value.x, xArr) != -1) {
                 xArr.push(value.x);
@@ -110,13 +108,23 @@ $(() => {
             };
         });
         xy = getEmptyXY(xArr, yArr);
+        return xy;
     };
 
     function getEmptyXY(xArr, yArr) {
         let newX, newY;
         newX = getRandomNumber(canvas.width - 10, 10); //give chance dont put so close to the edge
-        newY = getRandomNumber(canvas.height - 10, 10); 
-    }
+        newY = getRandomNumber(canvas.height - 10, 10);
+        if($.inArray(newX, xArr) == -1 && $.inArray(newY, yArr) != -1) { // if the random number generated isnt where the snake body is, then accept it
+            return {
+                x: newX,
+                y: newY,
+                eaten: false
+            };
+        } else {
+            return getEmptyXY(xArr, yArr); // run it again to get new food space
+        };
+    };
 
     function getRandomNumber(max, multipleOf) { // max is 590, mutliple of 10
         let result = Math.floor(Math.random() * max);
@@ -124,7 +132,7 @@ $(() => {
         return result;
     }
 
-    
+
 
     //////////////////////////////////////////////////////////////////////////////
     // eating
