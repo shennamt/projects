@@ -12,6 +12,7 @@ $(() => {
 
     const tileWidth = 10;
     const tileHeight = 10;
+    var tileSize = 10;
 
     const left = 37; // Arrow key alt codes
     const up = 38;
@@ -19,7 +20,7 @@ $(() => {
     const down = 40;
 
     var keyPressed = down; // let's begin the game with the snake going down
-    var tileSize = 10;
+    var score = 0;
 
     //////////////////////////////////////////////////////////////////////////////
     // game loop
@@ -69,10 +70,13 @@ $(() => {
             context.strokeRect(value.x, value.y, tileWidth, tileHeight);
             if(index == 0) {
                 if(ateFood(value.x, value.y)) {
-                    console.log("yum!") // testing
-                }
-            }
+                    // console.log("yum!") // testing
+                    score++;
+                    $('#score').text(score); // using b, so no val. use text instead.
 
+                    increaseSnakeLength();
+                };
+            };
         });
     };
     
@@ -89,6 +93,13 @@ $(() => {
 
     function ateFood(x,y) {
         return food.x == x && food.y == y // check if the snake head is at the same position as the food AKA eating
+    };
+
+    function increaseSnakeLength(){
+        snake.push({
+            x: snake[snake.length -1].oldX, // pushing to back of the arr.
+            y: snake[snake.length -1].oldY
+        });
     };
 
     //////////////////////////////////////////////////////////////////////////////
