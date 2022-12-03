@@ -66,7 +66,12 @@ $(() => {
             context.fillStyle = 'white';
             context.fillRect(value.x, value.y, tileWidth, tileHeight);
             context.strokeStyle = 'black';
-            context.strokeRect(food.x, food.y, tileWidth, tileHeight);
+            context.strokeRect(value.x, value.y, tileWidth, tileHeight);
+            if(index == 0) {
+                if(ateFood(value.x, value.y)) {
+                    console.log("yum!") // testing
+                }
+            }
 
         });
     };
@@ -80,6 +85,13 @@ $(() => {
     };
 
     //////////////////////////////////////////////////////////////////////////////
+    // eating
+
+    function ateFood(x,y) {
+        return food.x == x && food.y == y // check if the snake head is at the same position as the food AKA eating
+    };
+
+    //////////////////////////////////////////////////////////////////////////////
     // clearing the canvas with each loop
     
     function clearCanvas() {
@@ -89,8 +101,10 @@ $(() => {
     //////////////////////////////////////////////////////////////////////////////
     // Event listener
     $(document).keydown(function(event) {
-        keyPressed = checkKeyIsAllowed(event.which);
-        // console.log(keyPressed); //testing
+        if($.inArray(event.which, [down, up, left, right]) != -1) { // so that only the arrow keys can be pressed. not sure why -1
+            keyPressed = checkKeyIsAllowed(event.which);
+            // console.log(keyPressed); //testing
+        }
     });
 
     //////////////////////////////////////////////////////////////////////////////
