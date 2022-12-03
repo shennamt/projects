@@ -128,11 +128,9 @@ $(() => {
 
     function getRandomNumber(max, multipleOf) { // max is 590, mutliple of 10
         let result = Math.floor(Math.random() * max);
-        result = (result % 10 == 0) ? result : result + (multipleOf = result % 10);
+        result = (result % 10 == 0) ? result : result + (multipleOf - result % 10);
         return result;
     }
-
-
 
     //////////////////////////////////////////////////////////////////////////////
     // eating
@@ -191,6 +189,7 @@ $(() => {
 
     function gameOver() {
         clearInterval(game);
+        alert('Game over');
     };
 
 });
