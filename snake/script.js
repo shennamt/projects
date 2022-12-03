@@ -8,7 +8,7 @@ $(() => {
         {x: 50, y: 80, oldX: 0, oldY: 0}
     ];
 
-    var food = {x: 200, y: 200, eaten: false};
+    var food = {x: 200, y: 200, eaten: false}; // eaten is a flag var, defines until condition is true
 
     const tileWidth = 10;
     const tileHeight = 10;
@@ -21,11 +21,12 @@ $(() => {
 
     var keyPressed = down; // let's begin the game with the snake going down
     var score = 0;
+    var game;
 
     //////////////////////////////////////////////////////////////////////////////
     // game loop
 
-    setInterval(gameLoop, 250) //looping every quarter of a second
+    game = setInterval(gameLoop, 250) //looping every quarter of a second
 
     function gameLoop() {
         console.log("loop is running"); //testing
@@ -71,15 +72,16 @@ $(() => {
             if(index == 0) {
 
                 if(ouro(value.x, value.y)) {
-                    console.log("Game over.")
+                    // console.log("Game over.") // testing
+                    gameOver();
                 };
 
                 if(ateFood(value.x, value.y)) {
                     // console.log("yum!") // testing
                     score++;
                     $('#score').text(score); // using b, so no val. use text instead.
-
                     increaseSnakeLength();
+                    food.eaten = true;
                 };
             };
         });
@@ -91,7 +93,38 @@ $(() => {
     function renderFood() {
         context.fillStyle = 'lime';
         context.fillRect(food.x, food.y, tileWidth, tileHeight);
+
+        if(food.eaten == true) {
+            food = randomPosition();
+        };
     };
+
+    function randomPosition() {
+        let xArr = yArr, xy;
+        $.each(snake, function(index, value){
+            if($.inArray(value.x, xArr) != -1) {
+                xArr.push(value.x);
+            };
+            if($.inArray(value.y, yArr) == -1) {
+                yArr.push(value.y);
+            };
+        });
+        xy = getEmptyXY(xArr, yArr);
+    };
+
+    function getEmptyXY(xArr, yArr) {
+        let newX, newY;
+        newX = getRandomNumber(canvas.width - 10, 10); //give chance dont put so close to the edge
+        newY = getRandomNumber(canvas.height - 10, 10); 
+    }
+
+    function getRandomNumber(max, multipleOf) { // max is 590, mutliple of 10
+        let result = Math.floor(Math.random() * max);
+        result = (result % 10 == 0) ? result : result + (multipleOf = result % 10);
+        return result;
+    }
+
+    
 
     //////////////////////////////////////////////////////////////////////////////
     // eating
@@ -146,6 +179,10 @@ $(() => {
         return snake.filter(function(value, index) {
             return index != 0 && value.x == x && value.y == y; // game over if snake eats itself
         }).length > 0 || x < 0 || x > canvas.width || y < 0 || y > canvas.height; // it returns an array, so if that array length is greater than 0, then it's the body etc.
+    };
+
+    function gameOver() {
+        clearInterval(game);
     };
 
 });
