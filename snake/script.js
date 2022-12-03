@@ -69,6 +69,11 @@ $(() => {
             context.strokeStyle = 'black';
             context.strokeRect(value.x, value.y, tileWidth, tileHeight);
             if(index == 0) {
+
+                if(ouro(value.x, value.y)) {
+                    console.log("Game over.")
+                };
+
                 if(ateFood(value.x, value.y)) {
                     // console.log("yum!") // testing
                     score++;
@@ -132,7 +137,15 @@ $(() => {
             key = (keyPressed != left) ? tempKey : keyPressed; // conditional ternary oprator
         }
         return key;
-    }
+    };
+
+    //////////////////////////////////////////////////////////////////////////////
+    // Game conditions 
+
+    function ouro(x,y) { // game over if snake eats itself
+        return snake.filter(function(value, index) {
+            return index != 0 && value.x == x && value.y == y; // game over if snake eats itself
+        }).length > 0 || x < 0 || x > canvas.width || y < 0 || y > canvas.height; // it returns an array, so if that array length is greater than 0, then it's the body etc.
+    };
 
 });
-   
