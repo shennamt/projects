@@ -1,25 +1,25 @@
 $(() => {
-    var canvas = $('#canvas')[0];
-    var context = canvas.getContext('2d');
+    let canvas = $('#canvas')[0];
+    let context = canvas.getContext('2d');
 
-    var snake = [
+    let snake = [
         {x: 50, y: 100, oldX: 0, oldY: 0},
     ];
 
-    var food = {x: 200, y: 200, eaten: false}; // eaten is a flag var, defines until condition is true
+    let food = {x: 200, y: 200, eaten: false}; // eaten is a flag let, defines until condition is true
 
     const tileWidth = 10;
     const tileHeight = 10;
-    var tileSize = 10;
+    let tileSize = 10;
 
     const left = 37; // Arrow key alt codes
     const up = 38;
     const right = 39;
     const down = 40;
 
-    var keyPressed = down; // let's begin the game with the snake going down
-    var score = 0;
-    var game;
+    let keyPressed = down; // let's begin the game with the snake going down
+    let score = 0;
+    let game;
 
     //////////////////////////////////////////////////////////////////////////////
     // game loop

@@ -18,10 +18,8 @@ The snake game ends when an ouroboros event occurs.
 
 ------------------------------------------------------------------------------- <br />
 METHODS <br />
-- querySelector()
 - setInternal()
 - pop()
-- unshift()
 - push()
 
 ------------------------------------------------------------------------------- <br />
