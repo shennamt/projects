@@ -8,6 +8,8 @@ $(() => {
         {x: 50, y: 80, oldX: 0, oldY: 0}
     ];
 
+    var food = {x: 200, y: 200, eaten: false};
+
     const tileWidth = 10;
     const tileHeight = 10;
 
@@ -27,6 +29,7 @@ $(() => {
     function gameLoop() {
         console.log("loop is running"); //testing
         clearCanvas();
+        renderFood();
         moveSnake();
         renderSnake();
     }
@@ -63,9 +66,17 @@ $(() => {
             context.fillStyle = 'white';
             context.fillRect(value.x, value.y, tileWidth, tileHeight);
             context.strokeStyle = 'black';
-            context.strokeRect(value.x, value.y, tileWidth, tileHeight);
+            context.strokeRect(food.x, food.y, tileWidth, tileHeight);
 
         });
+    };
+    
+    //////////////////////////////////////////////////////////////////////////////
+    // render food
+
+    function renderFood() {
+        context.fillStyle = 'lime';
+        context.fillRect(food.x, food.y, tileWidth, tileHeight);
     };
 
     //////////////////////////////////////////////////////////////////////////////
