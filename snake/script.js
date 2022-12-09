@@ -1,9 +1,13 @@
 $(() => {
     const canvas = $('#canvas')[0];
+    // by appending [0], the jQuery obkec will return the first DOM element. using id selector so there's only 1 element.
+    // jQuery methods often use CSS methods to match elements to match elements from doc.
     const ctx = canvas.getContext('2d');
 
     let snake = [
-        {x: 50, y: 100, oldX: 0, oldY: 0}, //before and after it "eats"
+        {x: 50, y: 100, oldX: 0, oldY: 0},
+        {x: 51, y: 100, oldX: 0, oldY: 0},
+        {x: 52, y: 100, oldX: 0, oldY: 0} //before and after it "eats"
     ];
 
     let food = {x: 200, y: 200, eaten: false};
@@ -19,7 +23,13 @@ $(() => {
     const up = 38;
     const right = 39;
     const down = 40;
-    // defining keycode values
+    // defining keycode values for arrow keys
+
+    const aLeft = 65
+    const wUp = 87;
+    const dRight = 58
+    const sDown = 83;
+    // defining keycode values for leftys
 
     let keyPressed = down; // let's begin the game with the snake going down
     let score = 0;
@@ -159,9 +169,10 @@ $(() => {
 
     /// Event Listener ///////////////////////////////////////////////////////////////////////////
  
-    $(document).keydown(function(event) {
+    $(document).keydown((event) => {
         if($.inArray(event.which, [down, up, left, right]) != -1) { // so that only the arrow keys can be pressed. not sure why -1
             keyPressed = checkKeyIsAllowed(event.which);
+            event.preventDefault(); // stops browser scroll
             // console.log(keyPressed); //testing
         }
     });
@@ -173,11 +184,11 @@ $(() => {
         if (tempKey == down) {
             key = (keyPressed != up) ? tempKey : keyPressed; // conditional ternary oprator
         } else if (tempKey == up) {
-            key = (keyPressed != down) ? tempKey : keyPressed; // conditional ternary oprator
+            key = (keyPressed != down) ? tempKey : keyPressed;
         } else if (tempKey == left) {
-            key = (keyPressed != right) ? tempKey : keyPressed; // conditional ternary oprator
+            key = (keyPressed != right) ? tempKey : keyPressed;
         } else if (tempKey == right) {
-            key = (keyPressed != left) ? tempKey : keyPressed; // conditional ternary oprator
+            key = (keyPressed != left) ? tempKey : keyPressed;
         }
         return key;
     };
@@ -190,9 +201,25 @@ $(() => {
         }).length > 0 || x < 0 || x > canvas.width || y < 0 || y > canvas.height; // it returns an array, so if that array length is greater than 0, then it's the body etc.
     };
 
+    function displayGameOver() {
+        ctx.font = "43px 'Press Start 2P', cursive";
+        ctx.fillStyle = 'red';
+        ctx.fillText("GAME OVER", 50, 265);
+    }
+
+    // function resetSnake() { // not so sure how to do this yet
+    //     score = 0;
+    //     snake = [
+    //         {x: 50, y: 100, oldX: 0, oldY: 0},
+    //         {x: 51, y: 100, oldX: 0, oldY: 0},
+    //         {x: 52, y: 100, oldX: 0, oldY: 0}
+    //     ];
+    //     let food = {x: 200, y: 200, eaten: false};
+    //     gameLoop();
+    // }
+
     function gameOver() {
         clearInterval(game);
-        alert('Game over');
+        displayGameOver();
     };
-
 });

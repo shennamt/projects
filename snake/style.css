@@ -1,7 +1,56 @@
-#wrapper {
+body {
+    background-color: #111111;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.column {
+    flex: 33.33%;
+}
+
+.left, .right, #gameSpace {
     text-align: center;
 }
 
+@media (min-width: 1000px) {
+    .columns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#title {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+}
+
+#scoreDisplay {
+    display: inline-block;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
 #canvas {
-    background-color: black;
+    background-color: #111111;
+    box-shadow: 15px 15px 10px limegreen, 0px 0px 70px white;
+}
+
+footer {
+    color: limegreen;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Arial';
 }
