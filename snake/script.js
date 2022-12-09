@@ -1,6 +1,6 @@
 $(() => {
     const canvas = $('#canvas')[0];
-    // by appending [0], the jQuery obkec will return the first DOM element. using id selector so there's only 1 element.
+    // by appending [0], the jQuery object will return the first DOM element. using id selector so there's only 1 element.
     // jQuery methods often use CSS methods to match elements to match elements from doc.
     const ctx = canvas.getContext('2d');
 
@@ -25,11 +25,11 @@ $(() => {
     const down = 40;
     // defining keycode values for arrow keys
 
-    const aLeft = 65
-    const wUp = 87;
-    const dRight = 58
-    const sDown = 83;
-    // defining keycode values for leftys
+    // const aLeft = 65
+    // const wUp = 87;
+    // const dRight = 68
+    // const sDown = 83;
+    // defining keycode values for leftys but didnt work
 
     let keyPressed = down; // let's begin the game with the snake going down
     let score = 0;
@@ -141,7 +141,7 @@ $(() => {
         };
     };
 
-    function getRandomNumber(max, multipleOf) { // max is 590, mutliple of 10
+    function getRandomNumber(max, multipleOf) { // max is 490, mutliple of 10
         let result = Math.floor(Math.random() * max);
         result = (result % 10 == 0) ? result : result + (multipleOf - result % 10);
         return result;
@@ -182,7 +182,7 @@ $(() => {
     function checkKeyIsAllowed(tempKey) {
         let key;
         if (tempKey == down) {
-            key = (keyPressed != up) ? tempKey : keyPressed; // conditional ternary oprator
+            key = (keyPressed != up) ? tempKey : keyPressed;
         } else if (tempKey == up) {
             key = (keyPressed != down) ? tempKey : keyPressed;
         } else if (tempKey == left) {
@@ -192,6 +192,9 @@ $(() => {
         }
         return key;
     };
+
+    // using conditional ternary oprator, expression executes if the conditon is truthy.
+    // afther the colon, expression executes if condition is falsy.
 
     /// Game Conditions ///////////////////////////////////////////////////////////////////////////
 
