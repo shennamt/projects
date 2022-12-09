@@ -14,7 +14,7 @@ BEGIN <br />
 
 ------------------------------------------------------------------------------- <br />
 END <br />
-The snake game ends when an ouroboros event occurs. 
+The snake game ends when an ouroboros event occurs.
 
 ------------------------------------------------------------------------------- <br />
 METHODS <br />
@@ -24,7 +24,7 @@ METHODS <br />
 
 ------------------------------------------------------------------------------- <br />
 IMPORTANT NOTE <br />
-This game is not mobile compatible as it requires 2 sets of arrow keys. 
+This game is not mobile compatible as it requires arrow keys.
 
 ------------------------------------------------------------------------------- <br />
 FEATURES (To be added if possible) <br />
