@@ -1,9 +1,13 @@
 $(() => {
     const canvas = $('#canvas')[0];
+    // by appending [0], the jQuery obkec will return the first DOM element. using id selector so there's only 1 element.
+    // jQuery methods often use CSS methods to match elements to match elements from doc.
     const ctx = canvas.getContext('2d');
 
     let snake = [
-        {x: 50, y: 100, oldX: 0, oldY: 0}, //before and after it "eats"
+        {x: 50, y: 100, oldX: 0, oldY: 0},
+        {x: 51, y: 100, oldX: 0, oldY: 0},
+        {x: 52, y: 100, oldX: 0, oldY: 0} //before and after it "eats"
     ];
 
     let food = {x: 200, y: 200, eaten: false};
@@ -194,5 +198,4 @@ $(() => {
         clearInterval(game);
         alert('Game over');
     };
-
 });
