@@ -27,7 +27,6 @@ $(() => {
     let keyPressed = down; // Beginning the game with the snake going down
     let score = 0;
     let game;
-    
 
     /// Game Loop ///////////////////////////////////////////////////////////////////////////
 
@@ -75,15 +74,11 @@ $(() => {
             ctx.strokeRect(value.x, value.y, tileWidth, tileHeight); // the tile borders
             if(index == 0) {
 
-                if(ouro(value.x, value.y)) {
-                    // is the head tile is at any of the body tiles, game over
-                    // console.log("Game over.") // testing
+                if(ouro(value.x, value.y)) { // if the head tile is at any of the body tiles, game over
                     gameOver();
                 };
 
-                if(ateFood(value.x, value.y)) {
-                    // if the head is at a food tile, add to score and increase snake length.
-                    // console.log("yum!") // testing
+                if(ateFood(value.x, value.y)) { // if the head is at a food tile, add to score and increase snake length.
                     score++;
                     $('#score').text(score); // using b, so no val. use text instead.
                     increaseSnakeLength();
@@ -96,7 +91,7 @@ $(() => {
     /// Render food ///////////////////////////////////////////////////////////////////////////
 
     function renderFood() {
-        ctx.fillStyle = 'lime';
+        ctx.fillStyle = 'limegreen';
         ctx.fillRect(food.x, food.y, tileWidth, tileHeight);
 
         if(food.eaten == true) {
@@ -205,26 +200,29 @@ $(() => {
         ctx.fillText("GAME OVER", 50, 250);
     }
 
+
     function displayReset() {
-        ctx.font = "17px 'Press Start 2P', cursive";
+        ctx.font = "13px 'Press Start 2P', cursive";
         ctx.fillStyle = 'limegreen';
-        ctx.fillText("Try again?", 160, 340);
+        ctx.fillText("Restarting in 3, 2, 1...", 100, 340);
     }
 
-    // function resetSnake() { // not so sure how to do this yet
-    //     score = 0;
-    //     snake = [
-    //         {x: 50, y: 100, oldX: 0, oldY: 0},
-    //         {x: 51, y: 100, oldX: 0, oldY: 0},
-    //         {x: 52, y: 100, oldX: 0, oldY: 0}
-    //     ];
-    //     let food = {x: 200, y: 200, eaten: false};
-    //     gameLoop();
-    // }
+    function resetGame() {
+        score = 0;
+        snake = [
+            {x: 50, y: 100, oldX: 0, oldY: 0},
+            {x: 51, y: 100, oldX: 0, oldY: 0},
+            {x: 52, y: 100, oldX: 0, oldY: 0}
+        ];
+        food = {x: 200, y: 200, eaten: false};
+        keyPressed = down;
+        game = setInterval(gameLoop, 200);
+    };
 
     function gameOver() {
         clearInterval(game);
         displayGameOver();
-        setTimeout(function() {displayReset();}, 2000)
+        setTimeout(function() {displayReset();}, 1000);
+        setTimeout(function() {resetGame();}, 4000);
     };
 });
