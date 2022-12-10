@@ -29,7 +29,7 @@ $(() => {
     // const wUp = 87;
     // const dRight = 68
     // const sDown = 83;
-    // defining keycode values for leftys but didnt work
+    // defining keycode values for leftys but there was an error
 
     let keyPressed = down; // let's begin the game with the snake going down
     let score = 0;
@@ -150,9 +150,11 @@ $(() => {
         return result;
     }
 
-    // i googled this solution and i still dont quite understand it but it work ok DONT @ ME :''''')
+    // i googled this solution and i still dont quite understand it but it works ok DONT @ ME :''''')
     // using conditional ternary oprator, expression executes if the conditon is truthy.
     // afther the colon, expression executes if condition is falsy.
+    // if the result is divisible by 10, accept the result
+    // else, let the result plus (-10 - result reminder)
 
     /// Eating //////////////////////////////////////////////////////////////////////////
 
