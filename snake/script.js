@@ -5,9 +5,9 @@ $(() => {
     const ctx = canvas.getContext('2d');
 
     let snake = [
-        {x: 33, y: 100, oldX: 0, oldY: 0},
-        {x: 34, y: 100, oldX: 0, oldY: 0},
-        {x: 35, y: 100, oldX: 0, oldY: 0} //before and after it "eats"
+        {x: 50, y: 100, oldX: 0, oldY: 0},
+        {x: 51, y: 100, oldX: 0, oldY: 0},
+        {x: 52, y: 100, oldX: 0, oldY: 0} //before and after it "eats"
     ];
 
     let food = {x: 200, y: 200, eaten: false};
