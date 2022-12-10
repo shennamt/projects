@@ -25,11 +25,11 @@ $(() => {
     const down = 40;
     // defining keycode values for arrow keys
 
-    // const aLeft = 65
-    // const wUp = 87;
-    // const dRight = 68
-    // const sDown = 83;
-    // defining keycode values for leftys but there was an error
+    const aLeft = 65;
+    const wUp = 87;
+    const dRight = 68;
+    const sDown = 83;
+    // defining keycode values for leftys
 
     let keyPressed = down; // let's begin the game with the snake going down
     let score = 0;
@@ -59,13 +59,13 @@ $(() => {
             // assigning the prev tile values to the new ones so that it appears the the snake is moving
 
             if(index === 0) { // expression to execute for the head AKA first item in array if an arrow key is pressed
-                if(keyPressed === down) {
+                if(keyPressed == down || keyPressed == sDown) {
                     snake[index].y = value.y + tileSize; // increases the y value to go down the length of a tile
-                } else if(keyPressed === up) {
+                } else if(keyPressed == up || keyPressed == wUp) {
                     snake[index].y = value.y - tileSize; // decreases the y value to go up the length of a tile
-                } else if(keyPressed === right) {
+                } else if(keyPressed == right || keyPressed == dRight) {
                     snake[index].x = value.x + tileSize; // increases the x value to go up the length of a tile
-                } else if(keyPressed === left) {
+                } else if(keyPressed == left || keyPressed == aLeft) {
                     snake[index].x = value.x - tileSize; // decreases the x value to go up the length of a tile
                 } 
             } else { // expression to execute for other items in the array AKA body
@@ -181,7 +181,7 @@ $(() => {
     // It contains the key code of the key which was pressed to trigger the event (eg: keydown, keyup).
 
     $(document).keydown((event) => {
-        if($.inArray(event.which, [down, up, left, right]) != -1) {
+        if($.inArray(event.which, [down, up, left, right, sDown, wUp, aLeft, dRight]) != -1) {
             // AKA indexOf event which.
             // Search for a specified value within the array and return its index (or -1 if not found).
             // ignore other keydown events
@@ -203,6 +203,14 @@ $(() => {
             key = (keyPressed != right) ? tempKey : keyPressed;
         } else if (tempKey == right) {
             key = (keyPressed != left) ? tempKey : keyPressed;
+        } else if (tempKey == sDown) {
+            key = (keyPressed != wUp) ? tempKey : keyPressed;
+        } else if (tempKey == wUp) {
+            key = (keyPressed != sDown) ? tempKey : keyPressed;
+        } else if (tempKey == aLeft) {
+            key = (keyPressed != dRight) ? tempKey : keyPressed;
+        } else if (tempKey == dRight) {
+            key = (keyPressed != aLeft) ? tempKey : keyPressed;
         }
         return key;
     };
