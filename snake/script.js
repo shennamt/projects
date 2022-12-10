@@ -5,9 +5,9 @@ $(() => {
     const ctx = canvas.getContext('2d');
 
     let snake = [
-        {x: 50, y: 100, oldX: 0, oldY: 0},
-        {x: 51, y: 100, oldX: 0, oldY: 0},
-        {x: 52, y: 100, oldX: 0, oldY: 0} //before and after it "eats"
+        {x: 33, y: 100, oldX: 0, oldY: 0},
+        {x: 34, y: 100, oldX: 0, oldY: 0},
+        {x: 35, y: 100, oldX: 0, oldY: 0} //before and after it "eats"
     ];
 
     let food = {x: 200, y: 200, eaten: false};
@@ -41,7 +41,7 @@ $(() => {
     game = setInterval(gameLoop, 200) //looping every fifth of a second
 
     function gameLoop() {
-        console.log("loop is running"); //testing
+        console.log("loop is running"); // testing
         clearCanvas();
         renderFood();
         moveSnake();
@@ -54,22 +54,23 @@ $(() => {
         //iterating over an obeject and executing a function for each matched element AKA forEach()
         $.each(snake, (index, value) => {
 
-            snake[index].oldX = value.x; // making the body move tgt with the snake
+            snake[index].oldX = value.x;
             snake[index].oldY = value.y;
+            // assigning the prev tile values to the new ones so that it appears the the snake is moving
 
-            if(index === 0) {
+            if(index === 0) { // expression to execute for the head AKA first item in array if an arrow key is pressed
                 if(keyPressed === down) {
-                    snake[index].y = value.y + tileSize; // increases the y value to go down
+                    snake[index].y = value.y + tileSize; // increases the y value to go down the length of a tile
                 } else if(keyPressed === up) {
-                    snake[index].y = value.y - tileSize;
+                    snake[index].y = value.y - tileSize; // decreases the y value to go up the length of a tile
                 } else if(keyPressed === right) {
-                    snake[index].x = value.x + tileSize;
+                    snake[index].x = value.x + tileSize; // increases the x value to go up the length of a tile
                 } else if(keyPressed === left) {
-                    snake[index].x = value.x - tileSize;
+                    snake[index].x = value.x - tileSize; // decreases the x value to go up the length of a tile
                 } 
-            } else {
-                snake[index].x = snake[index - 1].oldX; // for the body to move tgt with the head
-                snake[index].y = snake[index - 1].oldY;
+            } else { // expression to execute for other items in the array AKA body
+                snake[index].x = snake[index - 1].oldX;
+                snake[index].y = snake[index - 1].oldY; 
             };
         });
     };
@@ -79,9 +80,9 @@ $(() => {
     function renderSnake() {
         $.each(snake, (index, value) => {
             ctx.fillStyle = 'white';
-            ctx.fillRect(value.x, value.y, tileWidth, tileHeight);
+            ctx.fillRect(value.x, value.y, tileWidth, tileHeight); // the snake tiles
             ctx.strokeStyle = 'black';
-            ctx.strokeRect(value.x, value.y, tileWidth, tileHeight);
+            ctx.strokeRect(value.x, value.y, tileWidth, tileHeight); // the tile borders
             if(index == 0) {
 
                 if(ouro(value.x, value.y)) {
@@ -111,7 +112,7 @@ $(() => {
         };
     };
 
-    function randomPosition() {
+    function randomPosition() { // randomising food position
         let xArr = yArr = [], xy;
         $.each(snake, (index, value) => {
             if($.inArray(value.x, xArr) != -1) {
@@ -162,15 +163,18 @@ $(() => {
     };
 
     /// clearing canvas with each loop ///////////////////////////////////////////////////////////////////////////
-    
+    // repaints the canvas so that it will appear that the array items are moving.
     function clearCanvas() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
 
-    /// Event Listener ///////////////////////////////////////////////////////////////////////////
- 
+    /// keydown Event ///////////////////////////////////////////////////////////////////////////
+    // which is a property of the event object in this event handler.
+    // It contains the key code of the key which was pressed to trigger the event (eg: keydown, keyup).
+
     $(document).keydown((event) => {
-        if($.inArray(event.which, [down, up, left, right]) != -1) { // so that only the arrow keys can be pressed. not sure why -1
+        if($.inArray(event.which, [down, up, left, right]) != -1) {
+            // not sure why -1 i googled it and now i cant find it ok dont @ me
             keyPressed = checkKeyIsAllowed(event.which);
             event.preventDefault(); // stops browser scroll
             // console.log(keyPressed); //testing
