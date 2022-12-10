@@ -17,7 +17,13 @@ Beyond that, I wanted to explore and improve my understanding of DOM manipulatio
 - The food, which is one square grid in green, appears randomly within the canvas.
 - Snake length increases as it eats more food.
 - The snake game ends when an ouroboros event occurs, or when the snake collides with a border.
-- This game accepts WASD keys for left-handers, and will collapse into a single column on smaller screen. However, the game is not playable on phones/ devices that don't have arrow keys (yet).
+- The game will auto-reset after it ends.
+
+### Features
+This game accepts WASD keys for left-handers, and will collapse into a single column on smaller screen. 
+
+### TODOs
+The game is not playable on phones/ devices that don't have arrow keys (yet).
 
 ### Technologies
 - HTML, CSS, Javascript
