@@ -5,9 +5,9 @@ $(() => {
     const ctx = canvas.getContext('2d');
 
     let snake = [
-        {x: 50, y: 100, oldX: 0, oldY: 0},
-        {x: 51, y: 100, oldX: 0, oldY: 0},
-        {x: 52, y: 100, oldX: 0, oldY: 0} //before and after it "eats"
+        {x: 33, y: 100, oldX: 0, oldY: 0},
+        {x: 34, y: 100, oldX: 0, oldY: 0},
+        {x: 35, y: 100, oldX: 0, oldY: 0} //before and after it "eats"
     ];
 
     let food = {x: 200, y: 200, eaten: false};
@@ -41,7 +41,7 @@ $(() => {
     game = setInterval(gameLoop, 200) //looping every fifth of a second
 
     function gameLoop() {
-        console.log("loop is running"); //testing
+        console.log("loop is running"); // testing
         clearCanvas();
         renderFood();
         moveSnake();
@@ -54,22 +54,23 @@ $(() => {
         //iterating over an obeject and executing a function for each matched element AKA forEach()
         $.each(snake, (index, value) => {
 
-            snake[index].oldX = value.x; // making the body move tgt with the snake
+            snake[index].oldX = value.x;
             snake[index].oldY = value.y;
+            // assigning the prev tile values to the new ones so that it appears the the snake is moving
 
-            if(index === 0) {
+            if(index === 0) { // expression to execute for the head AKA first item in array if an arrow key is pressed
                 if(keyPressed === down) {
-                    snake[index].y = value.y + tileSize; // increases the y value to go down
+                    snake[index].y = value.y + tileSize; // increases the y value to go down the length of a tile
                 } else if(keyPressed === up) {
-                    snake[index].y = value.y - tileSize;
+                    snake[index].y = value.y - tileSize; // decreases the y value to go up the length of a tile
                 } else if(keyPressed === right) {
-                    snake[index].x = value.x + tileSize;
+                    snake[index].x = value.x + tileSize; // increases the x value to go up the length of a tile
                 } else if(keyPressed === left) {
-                    snake[index].x = value.x - tileSize;
+                    snake[index].x = value.x - tileSize; // decreases the x value to go up the length of a tile
                 } 
-            } else {
-                snake[index].x = snake[index - 1].oldX; // for the body to move tgt with the head
-                snake[index].y = snake[index - 1].oldY;
+            } else { // expression to execute for other items in the array AKA body
+                snake[index].x = snake[index - 1].oldX;
+                snake[index].y = snake[index - 1].oldY; 
             };
         });
     };
@@ -79,17 +80,19 @@ $(() => {
     function renderSnake() {
         $.each(snake, (index, value) => {
             ctx.fillStyle = 'white';
-            ctx.fillRect(value.x, value.y, tileWidth, tileHeight);
+            ctx.fillRect(value.x, value.y, tileWidth, tileHeight); // the snake tiles
             ctx.strokeStyle = 'black';
-            ctx.strokeRect(value.x, value.y, tileWidth, tileHeight);
+            ctx.strokeRect(value.x, value.y, tileWidth, tileHeight); // the tile borders
             if(index == 0) {
 
                 if(ouro(value.x, value.y)) {
+                    // is the head tile is at any of the body tiles, game over
                     // console.log("Game over.") // testing
                     gameOver();
                 };
 
                 if(ateFood(value.x, value.y)) {
+                    // if the head is at a food tile, add to score and increase snake length.
                     // console.log("yum!") // testing
                     score++;
                     $('#score').text(score); // using b, so no val. use text instead.
@@ -111,13 +114,13 @@ $(() => {
         };
     };
 
-    function randomPosition() {
+    function randomPosition() { // randomising food position but making sure it's not in the position of the snake
         let xArr = yArr = [], xy;
         $.each(snake, (index, value) => {
-            if($.inArray(value.x, xArr) != -1) {
+            if($.inArray(value.x, xArr) != -1) { // if the value of x in the xArr is not -1
                 xArr.push(value.x);
             };
-            if($.inArray(value.y, yArr) == -1) {
+            if($.inArray(value.y, yArr) == -1) { // if the valye of y in the yArr is not -1
                 yArr.push(value.y);
             };
         });
@@ -125,9 +128,9 @@ $(() => {
         return xy;
     };
 
-    function getEmptyXY(xArr, yArr) {
+    function getEmptyXY(xArr, yArr) { // generating new x and y positions
         let newX, newY;
-        newX = getRandomNumber(canvas.width - 10, 10); //give chance dont put so close to the edge
+        newX = getRandomNumber(canvas.width - 10, 10); // putting -10 so it wont be positioned out of the canvas
         newY = getRandomNumber(canvas.height - 10, 10);
         if($.inArray(newX, xArr) == -1 && $.inArray(newY, yArr) != -1) {
             // if the random number generated isnt where the snake body is, then accept it
@@ -143,9 +146,13 @@ $(() => {
 
     function getRandomNumber(max, multipleOf) { // max is 490, mutliple of 10
         let result = Math.floor(Math.random() * max);
-        result = (result % 10 == 0) ? result : result + (multipleOf - result % 10);
+        result = (result % 10 == 0) ? result : result + (multipleOf - result % 10); 
         return result;
     }
+
+    // i googled this solution and i still dont quite understand it but it work ok DONT @ ME :''''')
+    // using conditional ternary oprator, expression executes if the conditon is truthy.
+    // afther the colon, expression executes if condition is falsy.
 
     /// Eating //////////////////////////////////////////////////////////////////////////
 
@@ -162,15 +169,20 @@ $(() => {
     };
 
     /// clearing canvas with each loop ///////////////////////////////////////////////////////////////////////////
-    
+    // repaints the canvas so that it will appear that the array items are moving.
     function clearCanvas() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
 
-    /// Event Listener ///////////////////////////////////////////////////////////////////////////
- 
+    /// keydown Event ///////////////////////////////////////////////////////////////////////////
+    // which is a property of the event object in this event handler.
+    // It contains the key code of the key which was pressed to trigger the event (eg: keydown, keyup).
+
     $(document).keydown((event) => {
-        if($.inArray(event.which, [down, up, left, right]) != -1) { // so that only the arrow keys can be pressed. not sure why -1
+        if($.inArray(event.which, [down, up, left, right]) != -1) {
+            // AKA indexOf event which.
+            // Search for a specified value within the array and return its index (or -1 if not found).
+            // ignore other keydown events
             keyPressed = checkKeyIsAllowed(event.which);
             event.preventDefault(); // stops browser scroll
             // console.log(keyPressed); //testing
@@ -201,7 +213,8 @@ $(() => {
     function ouro(x,y) { // game over if snake eats itself
         return snake.filter((value, index) => {
             return index != 0 && value.x == x && value.y == y; // game over if snake eats itself
-        }).length > 0 || x < 0 || x > canvas.width || y < 0 || y > canvas.height; // it returns an array, so if that array length is greater than 0, then it's the body etc.
+        }).length > 0 || x < 0 || x > canvas.width || y < 0 || y > canvas.height;
+        // it returns an array, so if that array length is greater than 0, then it's the body etc.
     };
 
     function displayGameOver() {
