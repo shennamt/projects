@@ -86,11 +86,13 @@ $(() => {
             if(index == 0) {
 
                 if(ouro(value.x, value.y)) {
+                    // is the head tile is at any of the body tiles, game over
                     // console.log("Game over.") // testing
                     gameOver();
                 };
 
                 if(ateFood(value.x, value.y)) {
+                    // if the head is at a food tile, add to score and increase snake length.
                     // console.log("yum!") // testing
                     score++;
                     $('#score').text(score); // using b, so no val. use text instead.
@@ -112,13 +114,13 @@ $(() => {
         };
     };
 
-    function randomPosition() { // randomising food position
+    function randomPosition() { // randomising food position but making sure it's not in the position of the snake
         let xArr = yArr = [], xy;
         $.each(snake, (index, value) => {
-            if($.inArray(value.x, xArr) != -1) {
+            if($.inArray(value.x, xArr) != -1) { // if the value of x in the xArr is not -1
                 xArr.push(value.x);
             };
-            if($.inArray(value.y, yArr) == -1) {
+            if($.inArray(value.y, yArr) == -1) { // if the valye of y in the yArr is not -1
                 yArr.push(value.y);
             };
         });
@@ -126,9 +128,9 @@ $(() => {
         return xy;
     };
 
-    function getEmptyXY(xArr, yArr) {
+    function getEmptyXY(xArr, yArr) { // generating new x and y positions
         let newX, newY;
-        newX = getRandomNumber(canvas.width - 10, 10); //give chance dont put so close to the edge
+        newX = getRandomNumber(canvas.width - 10, 10); // putting -10 so it wont be positioned out of the canvas
         newY = getRandomNumber(canvas.height - 10, 10);
         if($.inArray(newX, xArr) == -1 && $.inArray(newY, yArr) != -1) {
             // if the random number generated isnt where the snake body is, then accept it
@@ -144,9 +146,13 @@ $(() => {
 
     function getRandomNumber(max, multipleOf) { // max is 490, mutliple of 10
         let result = Math.floor(Math.random() * max);
-        result = (result % 10 == 0) ? result : result + (multipleOf - result % 10);
+        result = (result % 10 == 0) ? result : result + (multipleOf - result % 10); 
         return result;
     }
+
+    // i googled this solution and i still dont quite understand it but it work ok DONT @ ME :''''')
+    // using conditional ternary oprator, expression executes if the conditon is truthy.
+    // afther the colon, expression executes if condition is falsy.
 
     /// Eating //////////////////////////////////////////////////////////////////////////
 
@@ -174,7 +180,9 @@ $(() => {
 
     $(document).keydown((event) => {
         if($.inArray(event.which, [down, up, left, right]) != -1) {
-            // not sure why -1 i googled it and now i cant find it ok dont @ me
+            // AKA indexOf event which.
+            // Search for a specified value within the array and return its index (or -1 if not found).
+            // ignore other keydown events
             keyPressed = checkKeyIsAllowed(event.which);
             event.preventDefault(); // stops browser scroll
             // console.log(keyPressed); //testing
@@ -205,7 +213,8 @@ $(() => {
     function ouro(x,y) { // game over if snake eats itself
         return snake.filter((value, index) => {
             return index != 0 && value.x == x && value.y == y; // game over if snake eats itself
-        }).length > 0 || x < 0 || x > canvas.width || y < 0 || y > canvas.height; // it returns an array, so if that array length is greater than 0, then it's the body etc.
+        }).length > 0 || x < 0 || x > canvas.width || y < 0 || y > canvas.height;
+        // it returns an array, so if that array length is greater than 0, then it's the body etc.
     };
 
     function displayGameOver() {
