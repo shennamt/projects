@@ -1,27 +1,34 @@
-Hey there! <br />
-This game is clone variation of the ever famous Snake, a video game genre that gained traction after its variant was preloaded on Nokia mobile phones in 1998. 
+# Hey there!
+This game is clone variation of the ever famous [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre) "Snake Wiki"), a video game genre that gained traction after its variant was preloaded on Nokia mobile phones in 1998.
+
+Play: https://shennamt.github.io/games/snake/index.html
+
+![STML Snake GIF](https://media1.giphy.com/media/jAqreL9Cu89mbL9Zfw/giphy.gif?cid=790b7611b6f84984879e90af2fd01d38f3f107b839662a20&rid=giphy.gif&ct=g)
   
-------------------------------------------------------------------------------- <br />
-CONTROL <br />
-Arrow keys <br />
+### Goals & Motivations
+The main driver of my decision to code Snake was nostalgia; I have fond memories of changing my translucent Nokia Phone's cover design, and all the fun games that came with it.
+
+Beyond that, I wanted to explore and improve my understanding of DOM manipulation.
   
-------------------------------------------------------------------------------- <br />
-BEGIN <br />
+### Build Status
 - The play space is a canvas.
-- The snake, 3 white blocks, will appear in the center, moving down, to the speed of 1/5 of a second. Snake will not change direction unless prompted by user's chosen arrow key. Otherwise, it will reach a boder and end the game.
+- The snake, 3 white blocks, will appear, moving down, to the speed of 1/5 of a second.
+- Snake will not change direction unless prompted by user's chosen arrow key. Otherwise, it will reach a boder and end the game.
 - The food, which is one square grid in green, appears randomly within the canvas.
 - Snake length increases as it eats more food.
+- The snake game ends when an ouroboros event occurs, or when the snake collides with a border.
+- The game will auto-reset after it ends.
 
-------------------------------------------------------------------------------- <br />
-END <br />
-The snake game ends when an ouroboros event occurs, or when the snake collides with a border.
+### Features
+This game accepts WASD keys for left-handers, and will collapse into a single column on smaller screen. 
 
-------------------------------------------------------------------------------- <br />
-METHODS <br />
-- setInternal()
-- DOM manipulation
-- push()
+### TODOs
+The game is not playable on phones/ devices that don't have arrow keys (yet).
 
-------------------------------------------------------------------------------- <br />
-IMPORTANT NOTE <br />
-This game is not mobile compatible as it requires arrow keys.
+### Technologies
+- HTML, CSS, Javascript
+- HTML Canvas for the main game space
+- JQuery
+
+### Installation
+Click https://shennamt.github.io/games/snake/index.html to play.

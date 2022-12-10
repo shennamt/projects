@@ -223,6 +223,9 @@ $(() => {
         clearInterval(game);
         displayGameOver();
         setTimeout(function() {displayReset();}, 1000);
+        // const reset = $('#canvas').on('click', () => { // click to restart. do this properly later
+        //     resetGame(); 
+        // });
         setTimeout(function() {resetGame();}, 4000);
     };
 });
