@@ -23,3 +23,33 @@ h6 {
     font-size: medium;
     border: none;
 }
+
+.search__input > input:focus {
+    /* this is a boolean. cos when i do something stupid like put 20px, it's the same width haha */
+    outline-width: 0px;
+}
+
+.search__buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f3f3f3;
+    border: 1px solid white;;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #5f6368;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    /* straight from google */
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}

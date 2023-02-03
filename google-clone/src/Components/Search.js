@@ -10,6 +10,10 @@ const Search = () => {
             <input/>
             <h6>Mic</h6>
         </div>
+        <div className='search__buttons'>
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
     </div>
   )
 }
