@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 function Home() {
     return (
         <div className='home'>
-            <h1>Homepage</h1>
             <div className='home__header'>
                 <div className='home__headerLeft'>
+                    {/* Use a link tag instead of a tag to avoid refresh */}
                     <Link to='about'>About</Link>
                     <Link to='store'>Store</Link>
                 </div>
@@ -16,7 +16,7 @@ function Home() {
                     <Link to='images'>Images</Link>
                     {/* Icon Link */}
                     {/* Avatar Link */}
-                </div>
+                </div> 
 
             </div>
 
