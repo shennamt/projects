@@ -18,14 +18,14 @@ function Home() {
                     <Link to='images'>Images</Link>
                     <Link to='apps'>Apps MUI</Link>
                     <Link to='avatar'>Avatar MUI</Link>
-                    
-                    {/* Avatar Link */}
                 </div> 
 
             </div>
 
             <div className='home__body'>
-
+                <img
+                    src='https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png' alt=''>
+                </img>
             </div>
         </div>
     )
