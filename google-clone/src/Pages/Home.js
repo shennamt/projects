@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 import { Link } from "react-router-dom";
+import Search from '../Components/Search';
+
 // import AppsIcon from '@mui/icons-material/Apps';
 // import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
@@ -16,16 +18,19 @@ function Home() {
                 <div className='home__headerRight'>
                     <Link to='gmail'>Gmail</Link>
                     <Link to='images'>Images</Link>
-                    <Link to='apps'>Apps MUI</Link>
-                    <Link to='avatar'>Avatar MUI</Link>
+                    <Link to='apps'>Apps</Link>
+                    <Link to='avatar'>Avatar</Link>
                 </div> 
 
             </div>
 
             <div className='home__body'>
                 <img
-                    src='https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png' alt=''>
-                </img>
+                    src='https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png' alt=''
+                />
+                <div className='home__inputContainer'>
+                    <Search />
+                </div>
             </div>
         </div>
     )
