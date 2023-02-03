@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 import { Link } from "react-router-dom";
+// import AppsIcon from '@mui/icons-material/Apps';
+// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 function Home() {
     return (
@@ -14,7 +16,9 @@ function Home() {
                 <div className='home__headerRight'>
                     <Link to='gmail'>Gmail</Link>
                     <Link to='images'>Images</Link>
-                    {/* Icon Link */}
+                    <Link to='apps'>Apps MUI</Link>
+                    <Link to='avatar'>Avatar MUI</Link>
+                    
                     {/* Avatar Link */}
                 </div> 
 
