@@ -14,18 +14,6 @@ function App() {
                     <Route path="/search" element={<SearchPage />}/>
                 </Routes>
             </Router>
-
-            {/* if in dom5 */}
-            {/* <Router>
-                <Switch>
-                    <Route path = '/search'>
-                        <SearchPage />
-                    </Route>
-                    <Route path = '/'>
-                        <Home />
-                    </Route>
-                </Switch>
-            </Router> */}
         </div>
     );
 };
