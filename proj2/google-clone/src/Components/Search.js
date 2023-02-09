@@ -4,16 +4,21 @@ import MicIcon from '@mui/icons-material/Mic';
 import SearchIcon from '@mui/icons-material/Search';
 import Button from '@mui/material/Button';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
+import { useNavigate } from 'react-router-dom';
 
 const Search = () => {
     // how we write variables inside react, using useState hooks
     const [input, setInput] = useState('');
+    // browser's history
+    const navigate = useNavigate();
 
 
-    const search = e => {
+    const search = (e) => {
         // prevent refreshing
         e.preventDefault();
-        console.log('Search button clicked');
+        console.log('Search button clicked >', input);
+
+        navigate('/search')
     }
 
     return (
