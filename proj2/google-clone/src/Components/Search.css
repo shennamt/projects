@@ -42,3 +42,8 @@
     /* makes it lowercase */
     text-transform: inherit;
 }
+
+.search__buttonsHidden {
+    /* to hide the buttons when resuing the component on the search results page */
+    display: none !important;
+}

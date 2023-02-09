@@ -6,18 +6,18 @@ import Button from '@mui/material/Button';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import { useNavigate } from 'react-router-dom';
 
-const Search = () => {
+const Search = ({ hideButtons = false }) => {
     // how we write variables inside react, using useState hooks
     const [input, setInput] = useState('');
     // browser's history
     const navigate = useNavigate();
-
 
     const search = (e) => {
         // prevent refreshing
         e.preventDefault();
         console.log('Search button clicked >', input);
 
+        // navigates to search page
         navigate('/search')
     }
 
@@ -32,10 +32,19 @@ const Search = () => {
                 <CameraAltIcon />
             </div>
 
-            <div className='search__buttons'>
-                <Button variant="outlined" type='submit' onClick={search}>Google Search</Button>
-                <Button variant="outlined">I'm Feeling Lucky</Button>
-            </div>
+            {/* using a ternary operator to hide the extra buttons while passing hideButtons as a prop */}
+            {!hideButtons ? (
+                <div className='search__buttons'>
+                    <Button variant="outlined" type='submit' onClick={search}>Google Search</Button>
+                    <Button variant="outlined">I'm Feeling Lucky</Button>
+                </div>
+            ): (
+                <div className='search__buttons'>
+                    <Button variant="outlined" type='submit' className='search__buttonsHidden' onClick={search}>Google Search</Button>
+                    <Button variant="outlined" className='search__buttonsHidden'>I'm Feeling Lucky</Button>
+                </div>
+            )}
+
         </form>
     )
 }
