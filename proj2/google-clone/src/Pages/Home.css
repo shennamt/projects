@@ -7,7 +7,7 @@
 .home__header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 30px 30px;
     align-items: center;
 }
 
@@ -30,20 +30,16 @@
     justify-content: space-between;
 }
 
-.homer__headerRight > .MuiSvgIcon-root {
-    margin-right: 20px;
-}
-
 .home__body {
     /* it'll take up majority of the space */
     flex: 1;
     display: flex;
     margin-top: 10%;
-    /* used to center */
+    /* used to center from */
     flex-direction: column;
 }
 
 .home__body > img {
     object-fit: contain;
-    height: 200px;
+    height: 150px;
 }
