@@ -5,10 +5,16 @@ import SearchIcon from '@mui/icons-material/Search';
 import Button from '@mui/material/Button';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import { useNavigate } from 'react-router-dom';
+import { useStateValue } from '../StateProvider';
+import { actionTypes } from '../reducer';
 
 const Search = ({ hideButtons = false }) => {
+    // gives us the state and dispatch
+    const [{}, dispatch] = useStateValue();
+
     // how we write variables inside react, using useState hooks
     const [input, setInput] = useState('');
+
     // browser's history
     const navigate = useNavigate();
 
@@ -16,6 +22,13 @@ const Search = ({ hideButtons = false }) => {
         // prevent refreshing
         e.preventDefault();
         console.log('Search button clicked >', input);
+
+        // dispatch the action
+        // im using the the object like in reducer.js to avoid possible string mistakes
+        dispatch({
+            type: actionTypes.SET_SEARCH_TERM,
+            term: input
+        })
 
         // navigates to search page
         navigate('/search')
