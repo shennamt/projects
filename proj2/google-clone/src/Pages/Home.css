@@ -35,7 +35,7 @@
     flex: 1;
     display: flex;
     margin-top: 10%;
-    /* used to center from */
+    /* used to center from using width as text-align centre if it were text */
     flex-direction: column;
 }
 
