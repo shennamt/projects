@@ -1,4 +1,4 @@
-# Projects
+# Games
 
-Hey there!
-Here are some projects that I've done to learn and improve my programming skills.
+### Hey there!
+In this folder you'll find renditions of classic games; remade with a personal touch.
