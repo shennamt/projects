@@ -8,28 +8,28 @@ export default {
   queries: {
     request: [
       {
-        title: "Google Custom Search - tesla",
-        totalResults: "21600000",
-        searchTerms: "tesla",
+        title: "Google Custom Search - Tesla",
+        totalResults: "681000000",
+        searchTerms: "Tesla",
         count: 10,
         startIndex: 1,
         inputEncoding: "utf8",
         outputEncoding: "utf8",
         safe: "off",
-        cx: "0b9c2d0be2b734ab0",
+        cx: "a55c23f5e52794b27",
       },
     ],
     nextPage: [
       {
-        title: "Google Custom Search - tesla",
-        totalResults: "21600000",
-        searchTerms: "tesla",
+        title: "Google Custom Search - Tesla",
+        totalResults: "681000000",
+        searchTerms: "Tesla",
         count: 10,
         startIndex: 11,
         inputEncoding: "utf8",
         outputEncoding: "utf8",
         safe: "off",
-        cx: "0b9c2d0be2b734ab0",
+        cx: "a55c23f5e52794b27",
       },
     ],
   },
@@ -37,175 +37,94 @@ export default {
     title: "Google",
   },
   searchInformation: {
-    searchTime: 0.470502,
-    formattedSearchTime: "0.47",
-    totalResults: "21600000",
-    formattedTotalResults: "21,600,000",
+    searchTime: 0.594409,
+    formattedSearchTime: "0.59",
+    totalResults: "681000000",
+    formattedTotalResults: "681,000,000",
   },
   items: [
     {
       kind: "customsearch#result",
-      title: "Nikola Tesla's Birthday",
-      htmlTitle: "Nikola \u003cb\u003eTesla&#39;s\u003c/b\u003e Birthday",
-      link: "https://www.google.com/doodles/nikola-teslas-birthday",
-      displayLink: "www.google.com",
-      snippet:
-        "Nikola Tesla's Birthday. July 10, 2009. This Doodle's Reach. This day in history. \nSingapore Elections 2020 · World Cup 2014 #60 · Eva Ekeblad's 293rd Birthday.",
-      htmlSnippet:
-        "Nikola \u003cb\u003eTesla&#39;s\u003c/b\u003e Birthday. July 10, 2009. This Doodle&#39;s Reach. This day in history. \u003cbr\u003e\nSingapore Elections 2020 &middot; World Cup 2014 #60 &middot; Eva Ekeblad&#39;s 293rd Birthday.",
-      formattedUrl: "https://www.google.com/doodles/nikola-teslas-birthday",
-      htmlFormattedUrl:
-        "https://www.google.com/doodles/nikola-\u003cb\u003eteslas\u003c/b\u003e-birthday",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src:
-              "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSNfpDYuSBD7gazDHnuebGdlfuF73F8lCd8HlD5HMXj2q2DCEb85Pxwgo",
-            width: "374",
-            height: "135",
-          },
-        ],
-        metatags: [
-          {
-            "og:image":
-              "http://lh3.googleusercontent.com/a8jF0RC7N-2BTvRPy0BTDsWJb5nC4FhybUSyCHfbv2k1LcWnZS7B9tcpD9vzXFYbp0D2F5XFaLtuSPRGYJMckXaZh3HEjSWnCGXVYNh6=s660",
-            "twitter:card": "summary_large_image",
-            "twitter:title": "Nikola Tesla's Birthday",
-            "og:type": "video.other",
-            "twitter:site": "@GoogleDoodles",
-            viewport: "width=device-width",
-            "twitter:description": "Nikola Tesla's Birthday #GoogleDoodle",
-            "og:title": "Nikola Tesla's Birthday",
-            "og:url":
-              "http://lh3.googleusercontent.com/a8jF0RC7N-2BTvRPy0BTDsWJb5nC4FhybUSyCHfbv2k1LcWnZS7B9tcpD9vzXFYbp0D2F5XFaLtuSPRGYJMckXaZh3HEjSWnCGXVYNh6=s660",
-            "og:description": "Nikola Tesla's Birthday #GoogleDoodle",
-            "twitter:image":
-              "http://lh3.googleusercontent.com/a8jF0RC7N-2BTvRPy0BTDsWJb5nC4FhybUSyCHfbv2k1LcWnZS7B9tcpD9vzXFYbp0D2F5XFaLtuSPRGYJMckXaZh3HEjSWnCGXVYNh6=s660",
-          },
-        ],
-        cse_image: [
-          {
-            src:
-              "http://lh3.googleusercontent.com/a8jF0RC7N-2BTvRPy0BTDsWJb5nC4FhybUSyCHfbv2k1LcWnZS7B9tcpD9vzXFYbp0D2F5XFaLtuSPRGYJMckXaZh3HEjSWnCGXVYNh6=s660",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title:
-        "Tesla (TSLA) Share Surge After Returning to Profitability - Bloomberg",
+      title: "Tesla: Electric Cars, Solar & Clean Energy",
       htmlTitle:
-        "\u003cb\u003eTesla\u003c/b\u003e (TSLA) Share Surge After Returning to Profitability - Bloomberg",
-      link:
-        "https://www.google.com/appserve/mkt/p/AFnwnKXOyZ8M67tGmz9rwP26fvUEtZfvbmSnRQu74FylAs4oxHio8dhdbe0Ys5zf3Vues3EXpNEIUDxOV8B03OEcQ6yBF9nH31IEhiYMGIjgwVwWdiRkgyuI-Mcv78X_dyGzsKNBrI0lflRglIY7BOcXeD3zUjida-ak-zGVJ8SeCEfAIR1jUGOLhlJCUE9z27mSMQ9KXl-RebDYEppjXz50YjA",
-      displayLink: "www.google.com",
+        "\u003cb\u003eTesla\u003c/b\u003e: Electric Cars, Solar &amp; Clean Energy",
+      link: "https://www.tesla.com/",
+      displayLink: "www.tesla.com",
       snippet:
-        "Oct 23, 2019 ... Wedbush Securities Managing Director Dan Ives and Bloomberg \nBusinessweek's Max Chafkin on Tesla's earnings report.",
+        "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and ...",
       htmlSnippet:
-        "Oct 23, 2019 \u003cb\u003e...\u003c/b\u003e Wedbush Securities Managing Director Dan Ives and Bloomberg \u003cbr\u003e\nBusinessweek&#39;s Max Chafkin on \u003cb\u003eTesla&#39;s\u003c/b\u003e earnings report.",
-      cacheId: "r2A82rxbZRQJ",
-      formattedUrl:
-        "https://www.google.com/.../ AFnwnKXOyZ8M67tGmz9rwP26fvUEtZfvbmSnRQu74FylAs4oxHio8dhd...",
-      htmlFormattedUrl:
-        "https://www.google.com/.../ AFnwnKXOyZ8M67tGmz9rwP26fvUEtZfvbmSnRQu74FylAs4oxHio8dhd...",
+        "\u003cb\u003eTesla\u003c/b\u003e is accelerating the world&#39;s transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and&nbsp;...",
+      cacheId: "rHYp-0etoiEJ",
+      formattedUrl: "https://www.tesla.com/",
+      htmlFormattedUrl: "https://www.\u003cb\u003etesla\u003c/b\u003e.com/",
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSchreTwgPhuQsd2gY8BotYct94WH-EzpwU870bMqGUpO2a07mjsS3KdYvN",
-            width: "307",
-            height: "164",
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSUJfAMM2tg3jkc-O42gXv0qCKhk944QQTVtP42EFcQz0Zl4X4IrHLSRlAW",
+            width: "311",
+            height: "162",
           },
         ],
         metatags: [
           {
+            "msapplication-tilecolor": "#cc0000",
             "og:image":
-              "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVUsPyqdxKDs/v0/1200x644.jpg",
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "og:type": "website",
             "twitter:card": "summary_large_image",
-            "og:site_name": "Bloomberg.com",
-            "sailthru.tags":
-              "TESLA INC,Elon Reeve Musk,Earnings,China,Shanghai,TWITTER INC,Gene Munster,Dan Ives,New York,Bonds,business,markets,technology,hyperdrive",
-            "al:android:package": "com.bloomberg.android.plus",
-            "parsely-author": "Dana Hull",
+            "twitter:title": "Electric Cars, Solar & Clean Energy | Tesla",
+            "theme-color": "#000000",
+            "og:site_name": "Tesla",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            handheldfriendly: "true",
+            "twitter:url": "https://www.tesla.com/",
+            "image:alt_text": "Red Model 3",
+            "og:title": "Electric Cars, Solar & Clean Energy | Tesla",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
             "og:description":
-              "Elon Musk flipped the script on those who doubted Tesla Inc. could return to profitability and meet aggressive timelines, delivering positive earnings few saw coming and declaring he’s ahead of schedule on a new plant and product.",
+              "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.",
+            "twitter:creator": "@tesla",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
             "twitter:image":
-              "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVUsPyqdxKDs/v0/1200x644.jpg",
-            "parsely-type": "post",
-            "twitter:site": "@technology",
-            "parsely-link":
-              "https://www.bloomberg.com/news/articles/2019-10-23/tesla-surges-as-musk-s-cost-cuts-pay-off-with-surprise-profit",
-            "iso-8601-publish-date": "2019-10-23T21:12:47.908Z",
-            "sailthru.title":
-              "Tesla Shares Soar as Elon Musk Packs Profit Report With Positives",
-            checksum: "b76f7c4fdeea547f862b8d3334d8dc96",
-            "parsely-image-url":
-              "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVUsPyqdxKDs/v0/1200x644.jpg",
-            "parsely-section": "technology",
-            "article:content_tier": "metered",
-            "fb:status":
-              "Elon Musk flipped the script on those who doubted Tesla Inc. could return to profitability and meet aggressive timelines, delivering positive earnings few saw coming and declaring he’s ahead of schedule on a new plant and product.",
-            "sailthru.date": "2019-10-23T21:12:47.908Z",
-            "og:type": "article",
-            "twitter:title":
-              "Tesla Shares Soar as Elon Musk Packs Profit Report With Positives",
-            "parsely-post-id": "PZSF8JT1UM0X01",
-            "og:title":
-              "Tesla Shares Soar as Elon Musk Packs Profit Report With Positives",
-            "parsely-title":
-              "Tesla (TSLA) Share Surge After Returning to Profitability",
-            "parsely-pub-date": "2019-10-23T21:12:47.908Z",
-            "al:android:url":
-              "bloomberg://www.bloomberg.com/news/articles/2019-10-23/tesla-surges-as-musk-s-cost-cuts-pay-off-with-surprise-profit?utm_medium=applink&utm_source=facebook",
-            referrer: "unsafe-url",
-            "parsely-tags":
-              "TESLA INC,Elon Reeve Musk,Earnings,China,Shanghai,TWITTER INC,Gene Munster,Dan Ives,New York,Bonds,Secondary Brand: business,Secondary Brand: markets,Secondary Brand: technology,Franchise: hyperdrive,Region: Global,Page: article",
-            "sailthru.description":
-              "Elon Musk flipped the script on those who doubted Tesla Inc. could return to profitability and meet aggressive timelines, delivering positive earnings few saw coming and declaring he’s ahead of schedule on a new plant and product.",
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "twitter:site": "@tesla",
             "apple-mobile-web-app-status-bar-style": "black",
-            viewport: "width=device-width, initial-scale=1, viewport-fit=cover",
+            viewport:
+              "width=device-width, minimum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover",
             "twitter:description":
-              "Elon Musk flipped the script on those who doubted Tesla Inc. could return to profitability and meet aggressive timelines, delivering positive earnings few saw coming and declaring he’s ahead of schedule on a new plant and product.",
-            "apple-mobile-web-app-capable": "no",
-            "og:url":
-              "https://www.bloomberg.com/news/articles/2019-10-23/tesla-surges-as-musk-s-cost-cuts-pay-off-with-surprise-profit",
-            validatedat: "2020-09-03T12:24:27.745Z",
-            "al:android:app_name": "Bloomberg",
-            "sailthru.author": "Dana Hull",
-            "article:opinion": "false",
+              "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/",
           },
         ],
         cse_image: [
           {
-            src:
-              "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVUsPyqdxKDs/v0/1200x644.jpg",
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "Tesla's promised $35,000 Model 3 is finally here - The Verge",
-      htmlTitle:
-        "\u003cb\u003eTesla&#39;s\u003c/b\u003e promised $35,000 Model 3 is finally here - The Verge",
-      link:
-        "https://www.google.com/appserve/mkt/p/AFnwnKUC74U4I9IMBP638n2JWYYtJ2YrfkS6qIyJtGC6EY5BcEkxOtkBzgIAUiuxy7FBi3nMA4X-cu40Ypee3yUt1GtpqLq509d_MrOlNlXtOkDSlk6Bzl2tGGwU__1C42y49q7KX6pq_ZaiOD2WS6bcAuhj8GCX4nmIn97r6ziTYYGhhGHHYKvKELYyPZJMkAU",
-      displayLink: "www.google.com",
+      title: "Tesla Investor Relations",
+      htmlTitle: "\u003cb\u003eTesla\u003c/b\u003e Investor Relations",
+      link: "https://ir.tesla.com/",
+      displayLink: "ir.tesla.com",
       snippet:
-        "Feb 28, 2019 ... Tesla is finally rolling out the long-awaited cheaper $35000 version of the Model \n3. The company is currently making multiple versions of a ...",
+        "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely ...",
       htmlSnippet:
-        "Feb 28, 2019 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eTesla\u003c/b\u003e is finally rolling out the long-awaited cheaper $35000 version of the Model \u003cbr\u003e\n3. The company is currently making multiple versions of a&nbsp;...",
-      cacheId: "2yb-zjVhk5IJ",
-      formattedUrl:
-        "https://www.google.com/.../ AFnwnKUC74U4I9IMBP638n2JWYYtJ2YrfkS6qIyJtGC6EY5BcEkxOtkB...",
-      htmlFormattedUrl:
-        "https://www.google.com/.../ AFnwnKUC74U4I9IMBP638n2JWYYtJ2YrfkS6qIyJtGC6EY5BcEkxOtkB...",
+        "\u003cb\u003eTesla&#39;s\u003c/b\u003e mission is to accelerate the world&#39;s transition to sustainable energy. Today, \u003cb\u003eTesla\u003c/b\u003e builds not only all-electric vehicles but also infinitely&nbsp;...",
+      cacheId: "DiUql1nUr6gJ",
+      formattedUrl: "https://ir.tesla.com/",
+      htmlFormattedUrl: "https://ir.\u003cb\u003etesla\u003c/b\u003e.com/",
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-JAPfZrJScQAw4GRzHqRftj6M6QToCuVx0qi-YoYbamTKH7yyTjbsY4uQ",
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8XSI3bppqdc5ZIqbEklnZLV0wDTvnqhQ7WJYzFuXCXYolcSd_ScywDPg",
             width: "311",
             height: "162",
           },
@@ -213,380 +132,2516 @@ export default {
         metatags: [
           {
             "og:image":
-              "https://cdn.vox-cdn.com/thumbor/BXyZ-pfkhtiqIdYyXz7aLubvpAw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10228109/jbareham_180213_2301_0052.jpg",
-            "article:published_time": "2019-02-28T17:02:27-05:00",
-            "og:image:width": "1200",
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
+            "theme-color": "#000000",
             "twitter:card": "summary_large_image",
-            "og:site_name": "The Verge",
-            "sailthru.tags":
-              "general,the-verge,front-page,transportation,cars,tesla,electric-cars,elon-musk,news",
-            "twitter:url":
-              "https://www.theverge.com/2019/2/28/18245165/tesla-model-3-price-lower-cost-elon-musk-news",
-            "apple-mobile-web-app-title": "Verge",
-            "parsely-author": "Sean O'Kane",
-            "msapplication-tileimage":
-              "https://cdn.vox-cdn.com/uploads/chorus_asset/file/7396113/221a67c8-a10f-11e6-8fae-983107008690.0.png",
+            "twitter:title": "Tesla Investor Relations",
+            "og:site_name": "Tesla Investor Relations",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
+            handheldfriendly: "true",
+            "og:title": "Tesla Investor Relations",
             "og:description":
-              "The 220-mile version of Tesla’s cheapest car arrives three years after it was announced",
-            "article:publisher": "http://www.facebook.com/verge",
+              "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
             "twitter:image":
-              "https://cdn.vox-cdn.com/thumbor/i6aWA9-cPptdw_E7EeK-5GCoBT0=/0x170:2040x1190/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/10228109/jbareham_180213_2301_0052.jpg",
-            "ahrefs-site-verification":
-              "1e57a609922037a3fbdc1c22efd7334113f174f15608f37e1b8538a7b4ce64c3",
-            "parsely-type": "post",
-            "twitter:site": "verge",
-            "article:modified_time": "2019-02-28T17:02:27-05:00",
-            "parsely-link":
-              "https://www.theverge.com/2019/2/28/18245165/tesla-model-3-price-lower-cost-elon-musk-news",
-            "sailthru.title":
-              "Tesla’s promised $35,000 Model 3 is finally here",
-            "parsely-image-url":
-              "https://cdn.vox-cdn.com/thumbor/N5oXlqm3aKibwEBMvVnk3T7ZH88=/0x212:2040x1360/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/63147639/jbareham_180213_2301_0168.1551391348.jpg",
-            "parsely-section": "front-page",
-            "msapplication-tilecolor": "#393092",
-            "sailthru.date": "2019-02-28T17:02:27-05:00",
-            "og:type": "article",
-            "twitter:title": "Tesla’s promised $35,000 Model 3 is finally here",
-            "msvalidate.01": "D385D0326A3AE144205C298DB34B4E94",
-            author: "Sean O'Kane",
-            "og:title": "Tesla’s promised $35,000 Model 3 is finally here",
-            "og:image:height": "630",
-            "sailthru.image.thumb":
-              "https://cdn.vox-cdn.com/thumbor/FxNLqZcAVaJNO6jctT0E3RgIWZ8=/425x0:1785x1360/200x200/cdn.vox-cdn.com/uploads/chorus_image/image/63147639/jbareham_180213_2301_0168.1551391348.jpg",
-            "parsely-title": "Tesla’s promised $35,000 Model 3 is finally here",
-            "article:author": "https://www.facebook.com/seanokane",
-            "style-tools":
-              "https://www.theverge.com/style/community/372/b8b72e6a88c6999752ceee8c607ca0bd/tools.css",
-            "parsely-pub-date": "2019-02-28T17:02:27-05:00",
-            "fb:app_id": "549923288395304",
-            "sailthru.description":
-              'Tesla is finally rolling out the long-awaited cheaper $35,000 version of the Model 3. The company is currently making multiple versions of a "Standard Range" Model 3 that can travel 220 miles on a single charge.',
-            "parsely-tags":
-              "verge,front-page,feed-filter-297,feed-filter-313,feed-filter-360,feed-filter-370,feed-filter-388,transportation,feed-filter-466,feed-filter-504,cars,tesla,feed-filter-521,feed-filter-585,feed-filter-595,feed-filter-685,feed-filter-757,feed-filter-805,feed-filter-811,feed-filter-879,feed-filter-983,feed-filter-993,feed-filter-1543,feed-filter-2033,feed-filter-2035,feed-filter-2037,feed-filter-2063,electric-cars,elon-musk,news",
-            outbrainsection: "elon-musk",
-            viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
+            viewport: "width=device-width, initial-scale=1.0",
             "twitter:description":
-              "The 220-mile version of Tesla’s cheapest car arrives three years after it was announced",
-            "og:url":
-              "https://www.theverge.com/2019/2/28/18245165/tesla-model-3-price-lower-cost-elon-musk-news",
-            "sailthru.image.full":
-              "https://cdn.vox-cdn.com/thumbor/N5oXlqm3aKibwEBMvVnk3T7ZH88=/0x212:2040x1360/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/63147639/jbareham_180213_2301_0168.1551391348.jpg",
+              "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
+            mobileoptimized: "width",
           },
         ],
         cse_image: [
           {
-            src:
-              "https://cdn.vox-cdn.com/thumbor/BXyZ-pfkhtiqIdYyXz7aLubvpAw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10228109/jbareham_180213_2301_0052.jpg",
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "Cybertruck: Tesla unveils new pickup truck but windows break ...",
-      htmlTitle:
-        "Cybertruck: \u003cb\u003eTesla\u003c/b\u003e unveils new pickup truck but windows break ...",
-      link:
-        "https://www.google.com/appserve/mkt/p/AFnwnKXtsbp5yqJmBM3Wup5LWgGLznjNq_i01A4Ok3RiA0C4w2H19uwY-YsCG08Xz9IhzQIWy0KfrqtRiv_UGsBviBx0JXhFacnyaE1UuknI991GF8TeKFt228HwGQTHqb7_gvZmMs6z-EUMcdFV7kyhZRW9k1QPLqNE9jZRg5z7yp1X8MugkVWh6kp_C8mJwYD4ilDAaAuiGwWDich1dqBf",
-      displayLink: "www.google.com",
+      title: "Model 3 | Tesla",
+      htmlTitle: "Model 3 | \u003cb\u003eTesla\u003c/b\u003e",
+      link: "https://www.tesla.com/model3",
+      displayLink: "www.tesla.com",
       snippet:
-        "Nov 22, 2019 ... Cybertruck: Tesla unveils new pickup truck but windows break during demo. This \narticle is more than 9 months old. Elon Musk says model ...",
+        "Model 3 is designed for electric-powered performance, with quick acceleration, long range and fast charging.",
       htmlSnippet:
-        "Nov 22, 2019 \u003cb\u003e...\u003c/b\u003e Cybertruck: \u003cb\u003eTesla\u003c/b\u003e unveils new pickup truck but windows break during demo. This \u003cbr\u003e\narticle is more than 9 months old. Elon Musk says model&nbsp;...",
-      cacheId: "E0FtqhGW44kJ",
-      formattedUrl:
-        "https://www.google.com/.../AFnwnKXtsbp5yqJmBM3Wup5LWgGLznjNq_ i01A4Ok3RiA0C4w2H19uwY-YsCG08Xz9IhzQIWy0KfrqtRiv_ ...",
+        "Model 3 is designed for electric-powered performance, with quick acceleration, long range and fast charging.",
+      cacheId: "N4-C0Xr0P-gJ",
+      formattedUrl: "https://www.tesla.com/model3",
       htmlFormattedUrl:
-        "https://www.google.com/.../AFnwnKXtsbp5yqJmBM3Wup5LWgGLznjNq_ i01A4Ok3RiA0C4w2H19uwY-YsCG08Xz9IhzQIWy0KfrqtRiv_ ...",
+        "https://www.\u003cb\u003etesla\u003c/b\u003e.com/model3",
       pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSUJfAMM2tg3jkc-O42gXv0qCKhk944QQTVtP42EFcQz0Zl4X4IrHLSRlAW",
+            width: "311",
+            height: "162",
+          },
+        ],
+        metatags: [
+          {
+            "og:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "twitter:card": "summary",
+            "theme-color": "#000000",
+            "og:site_name": "Tesla",
+            "twitter:url": "https://www.tesla.com/model3",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
+            "og:description":
+              "Model 3 is designed for electric-powered performance, with quick acceleration, long range and fast charging.",
+            "twitter:creator": "@Tesla",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "twitter:image:alt": "Model 3",
+            "twitter:site": "@tesla",
+            "msapplication-tilecolor": "#cc0000",
+            "og:image:alt": "Model 3",
+            "twitter:title": "Model 3 | Tesla",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            handheldfriendly: "true",
+            "image:alt_text": "Tesla logo in gray on white background",
+            "og:title": "Model 3 | Tesla",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport:
+              "width=device-width, minimum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover",
+            "twitter:description":
+              "Model 3 is designed for electric-powered performance, with quick acceleration, long range and fast charging.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/model3",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tesla the Band | Official Website | American Made Rock 'n' Roll",
+      htmlTitle:
+        "\u003cb\u003eTesla\u003c/b\u003e the Band | Official Website | American Made Rock &#39;n&#39; Roll",
+      link: "https://teslatheband.com/",
+      displayLink: "teslatheband.com",
+      snippet:
+        "The Official Website of the rock band Tesla, providing recent news, tour dates, music, history, and other ways for fans to interact.",
+      htmlSnippet:
+        "The Official Website of the rock band \u003cb\u003eTesla\u003c/b\u003e, providing recent news, tour dates, music, history, and other ways for fans to interact.",
+      cacheId: "Pw3S9NsLmboJ",
+      formattedUrl: "https://teslatheband.com/",
+      htmlFormattedUrl: "https://\u003cb\u003etesla\u003c/b\u003etheband.com/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQj0Cz3qQotoHoZOO9Jro6e2jrHOWKwrH87bJcUVCT9zc_DyxxFtqt7vzo",
+            width: "310",
+            height: "163",
+          },
+        ],
+        metatags: [
+          {
+            "og:image":
+              "https://teslatheband.com/wp-content/uploads/2018/03/cropped-home-hero-1.jpg",
+            "og:image:width": "3840",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title":
+              "Tesla the Band | Official Website | American Made Rock 'n' Roll",
+            "og:site_name": "TESLA BAND | Official Website",
+            "og:title":
+              "Tesla the Band | Official Website | American Made Rock 'n' Roll",
+            "og:image:height": "2016",
+            "twitter:image:height": "2016",
+            "msapplication-tileimage":
+              "/wp-content/uploads/2018/04/cropped-tesla-logo-1-270x270.png",
+            "og:description":
+              "The Official Website of the rock band Tesla, providing recent news, tour dates, music, history, and other ways for fans to interact.",
+            "twitter:image":
+              "https://teslatheband.com/wp-content/uploads/2018/03/cropped-home-hero-1.jpg",
+            "twitter:image:width": "3840",
+            viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "twitter:description":
+              "The Official Website of the rock band Tesla, providing recent news, tour dates, music, history, and other ways for fans to interact.",
+            "og:locale": "en_US",
+            "og:url": "https://teslatheband.com/",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://teslatheband.com/wp-content/uploads/2018/03/cropped-home-hero-1.jpg",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Model S | Tesla",
+      htmlTitle: "Model S | \u003cb\u003eTesla\u003c/b\u003e",
+      link: "https://www.tesla.com/models",
+      displayLink: "www.tesla.com",
+      snippet:
+        "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
+      htmlSnippet:
+        "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
+      cacheId: "Ei43u66-EP0J",
+      formattedUrl: "https://www.tesla.com/models",
+      htmlFormattedUrl:
+        "https://www.\u003cb\u003etesla\u003c/b\u003e.com/models",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6tWZ1u8fdVANb-PjmpiocDSdgIPJwmMaXULuLFaYbyMlSUmJIWKySKwLt",
+            width: "311",
+            height: "162",
+          },
+        ],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#cc0000",
+            "og:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/f53054f4-30da-4a94-8aac-1aa6f662996d/bvlatuR/std/1200x628/Model-S-Social?quality=auto-medium&format=auto",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Model S | Tesla",
+            "theme-color": "#000000",
+            "og:site_name": "Tesla",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/f53054f4-30da-4a94-8aac-1aa6f662996d/bvlatuR/std/1200x628/Model-S-Social?quality=auto-medium&format=auto",
+            handheldfriendly: "true",
+            "twitter:url": "https://www.tesla.com/models",
+            "image:alt_text": "Tesla logo in gray on white background",
+            "og:title": "Model S",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
+            "og:description":
+              "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
+            "twitter:creator": "@tesla",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/f53054f4-30da-4a94-8aac-1aa6f662996d/bvlatuR/std/1200x628/Model-S-Social?quality=auto-medium&format=auto",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/f53054f4-30da-4a94-8aac-1aa6f662996d/bvlatuR/std/1200x628/Model-S-Social?quality=auto-medium&format=auto",
+            "twitter:site": "@tesla",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport:
+              "width=device-width, minimum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover",
+            "twitter:description":
+              "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/models",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/f53054f4-30da-4a94-8aac-1aa6f662996d/bvlatuR/std/1200x628/Model-S-Social?quality=auto-medium&format=auto",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tesla (@Tesla) / Twitter",
+      htmlTitle:
+        "\u003cb\u003eTesla\u003c/b\u003e (@\u003cb\u003eTesla\u003c/b\u003e) / Twitter",
+      link: "https://twitter.com/Tesla",
+      displayLink: "twitter.com",
+      snippet:
+        "Tesla's Tweets ; Quote Tweet. Elon Musk · @elonmusk · Feb 8. Master Plan 3, the path to a fully sustainable energy future for Earth will be presented on March 1.",
+      htmlSnippet:
+        "\u003cb\u003eTesla&#39;s\u003c/b\u003e Tweets ; Quote Tweet. Elon Musk &middot; @elonmusk &middot; Feb 8. Master Plan 3, the path to a fully sustainable energy future for Earth will be presented on March 1.",
+      cacheId: "jKwlj82No5AJ",
+      formattedUrl: "https://twitter.com/Tesla",
+      htmlFormattedUrl: "https://twitter.com/\u003cb\u003eTesla\u003c/b\u003e",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQk7g5E5zgpIoWvQscorzoyQ6Aln03o75SF1yB-pAfKLQKDu1s266B0tw",
+            width: "48",
+            height: "48",
+          },
+        ],
         imageobject: [
           {
-            width: "190",
-            url: "https://uploads.guim.co.uk/2018/01/31/TheGuardian_AMP.png",
-            height: "60",
+            contenturl: "https://pbs.twimg.com/media/FoaYMtGakAYozuf.jpg",
+            width: "1129",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FoaYMtGakAYozuf?format=jpg&name=thumb",
           },
           {
-            contenturl:
-              "https://i.guim.co.uk/img/media/71fe1c4ee2c7b2481a269e7334821449c8ab7ef6/156_54_515_309/master/515.jpg?width=300&quality=85&auto=format&fit=max&s=cd33d7cd55d7701ae39d737db18984dc",
-            width: "515",
-            description:
-              "Elon Musk launches Tesla’s first electric pickup truck, the Cybertruck. Photograph: Tesla/Reuters",
-            url:
-              "https://i.guim.co.uk/img/media/71fe1c4ee2c7b2481a269e7334821449c8ab7ef6/156_54_515_309/master/515.jpg?width=700&quality=85&auto=format&fit=max&s=8b0cc29fb35fa303d14ec4a01c68d363",
-            height: "309",
+            contenturl: "https://pbs.twimg.com/media/FoaYMtGakAYozuf.jpg",
+            width: "1129",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FoaYMtGakAYozuf?format=jpg&name=thumb",
           },
           {
-            contenturl:
-              "https://i.guim.co.uk/img/media/82f73ab70d99320c143f963717b0df6bdf27ac05/632_924_1582_949/master/1582.jpg?width=300&quality=85&auto=format&fit=max&s=b337c68e8c9538d116e00f14016db13c",
-            width: "1582",
-            description:
-              "The Tesla Cybertruck is revealed in Los Angeles. Photograph: Ringo HW Chiu/AP",
-            url:
-              "https://i.guim.co.uk/img/media/82f73ab70d99320c143f963717b0df6bdf27ac05/632_924_1582_949/master/1582.jpg?width=700&quality=85&auto=format&fit=max&s=12582539f9c775db21d0df96e007d37a",
-            height: "949",
+            contenturl: "https://pbs.twimg.com/media/Fn6HQrfXECEk2VC.jpg",
+            width: "2048",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fn6HQrfXECEk2VC?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fn6HRCQXECQV4Up.jpg",
+            width: "2048",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fn6HRCQXECQV4Up?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fn6HRSoX0AAgPaY.jpg",
+            width: "1153",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fn6HRSoX0AAgPaY?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fn6HRiuXEAYT70V.jpg",
+            width: "955",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fn6HRiuXEAYT70V?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fn42BszXEAEFgql.jpg",
+            width: "448",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fn42BszXEAEFgql?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fn42Bs3XwAAkIUj.jpg",
+            width: "298",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fn42Bs3XwAAkIUj?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fn42Bs-XkAUvdmS.jpg",
+            width: "448",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fn42Bs-XkAUvdmS?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fn42BsyXoAMhGKS.jpg",
+            width: "448",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fn42BsyXoAMhGKS?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fn0qqDAX0AAEHCI.jpg",
+            width: "1200",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fn0qqDAX0AAEHCI?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnXfADMagAEHrDi.jpg",
+            width: "1600",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnXfADMagAEHrDi?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnWVvg9XoA8ySHf.jpg",
+            width: "2772",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnWVvg9XoA8ySHf?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnWViWdXoAsP3a8.png",
+            width: "3534",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnWViWdXoAsP3a8?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnWMJSUXoAUYH2D.jpg",
+            width: "2778",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnWMJSUXoAUYH2D?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnWL6znWAAAAxfh.jpg",
+            width: "3840",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnWL6znWAAAAxfh?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnWL9WbXoAAKapY.jpg",
+            width: "4096",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnWL9WbXoAAKapY?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnWMBE3XoAoR5nN.jpg",
+            width: "4096",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnWMBE3XoAoR5nN?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnWMG18XoAAPMaq.jpg",
+            width: "2790",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnWMG18XoAAPMaq?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnWLhW9XkAAVahy.jpg",
+            width: "4096",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnWLhW9XkAAVahy?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnRXWqoXkAA6fpC.jpg",
+            width: "4096",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnRXWqoXkAA6fpC?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FnRXWqoXkAA6fpC.jpg",
+            width: "4096",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FnRXWqoXkAA6fpC?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/Fm3KQ6BXkAEHtyL.jpg",
+            width: "2908",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/Fm3KQ6BXkAEHtyL?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FmxEZShWAAEcCDM.jpg",
+            width: "4000",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FmxEZShWAAEcCDM?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FmW02VeXoAIoKDl.jpg",
+            width: "1284",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FmW02VeXoAIoKDl?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FmW02VcWQAEgJVG.jpg",
+            width: "1284",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FmW02VcWQAEgJVG?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FmOavSlacAUfjMu.jpg",
+            width: "3024",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FmOavSlacAUfjMu?format=jpg&name=thumb",
+          },
+          {
+            contenturl: "https://pbs.twimg.com/media/FmOavSkaAAI_YwT.jpg",
+            width: "3024",
+            caption: "Image",
+            thumbnailurl:
+              "https://pbs.twimg.com/media/FmOavSkaAAI_YwT?format=jpg&name=thumb",
           },
         ],
         person: [
           {
-            name: "Mark Sweney",
-            sameas: "Mark Sweney",
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "44196397",
+            givenname: "Elon Musk",
+            disambiguatingdescription: "verified",
+            additionalname: "elonmusk",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "1405917556318392324",
+            givenname: "Tesla Solar",
+            disambiguatingdescription: "verified,Tesla",
+            additionalname: "TeslaSolar",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "1620480811303866369",
+            givenname: "Tesla Europe",
+            disambiguatingdescription: "Tesla",
+            additionalname: "tesla_europe",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "44196397",
+            givenname: "Elon Musk",
+            disambiguatingdescription: "verified",
+            additionalname: "elonmusk",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "44196397",
+            givenname: "Elon Musk",
+            disambiguatingdescription: "verified",
+            additionalname: "elonmusk",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "1405917556318392324",
+            givenname: "Tesla Solar",
+            disambiguatingdescription: "verified,Tesla",
+            additionalname: "TeslaSolar",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "1405917556318392324",
+            givenname: "Tesla Solar",
+            disambiguatingdescription: "verified,Tesla",
+            additionalname: "TeslaSolar",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "1346535293449428992",
+            givenname: "Tesla Charging",
+            disambiguatingdescription: "verified,Tesla",
+            additionalname: "TeslaCharging",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
+          },
+          {
+            identifier: "13298072",
+            givenname: "Tesla",
+            disambiguatingdescription: "verified",
+            additionalname: "Tesla",
           },
         ],
-        organization: [
+        interactioncounter: [
           {
-            name: "The Guardian",
+            userinteractioncount: "12013",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1623417306339590144/likes",
+          },
+          {
+            userinteractioncount: "1091",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1623417306339590144/retweets",
+          },
+          {
+            userinteractioncount: "72",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1623417306339590144/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "332",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1623417306339590144",
+          },
+          {
+            userinteractioncount: "146287",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/elonmusk/status/1623152067547394050/likes",
+          },
+          {
+            userinteractioncount: "18490",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/elonmusk/status/1623152067547394050/retweets",
+          },
+          {
+            userinteractioncount: "2408",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/elonmusk/status/1623152067547394050/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "9289",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/elonmusk/status/1623152067547394050",
+          },
+          {
+            userinteractioncount: "3792",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/TeslaSolar/status/1623013436010680320/likes",
+          },
+          {
+            userinteractioncount: "448",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/TeslaSolar/status/1623013436010680320/retweets",
+          },
+          {
+            userinteractioncount: "22",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/TeslaSolar/status/1623013436010680320/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "104",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/TeslaSolar/status/1623013436010680320",
+          },
+          {
+            userinteractioncount: "45041",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1621627317301776387/likes",
+          },
+          {
+            userinteractioncount: "4856",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1621627317301776387/retweets",
+          },
+          {
+            userinteractioncount: "354",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1621627317301776387/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "1832",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1621627317301776387",
+          },
+          {
+            userinteractioncount: "3897",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/tesla_europe/status/1620883535660998656/likes",
+          },
+          {
+            userinteractioncount: "574",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/tesla_europe/status/1620883535660998656/retweets",
+          },
+          {
+            userinteractioncount: "37",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/tesla_europe/status/1620883535660998656/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "512",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/tesla_europe/status/1620883535660998656",
+          },
+          {
+            userinteractioncount: "35560",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1620792323566346240/likes",
+          },
+          {
+            userinteractioncount: "2690",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1620792323566346240/retweets",
+          },
+          {
+            userinteractioncount: "235",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1620792323566346240/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "1332",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1620792323566346240",
+          },
+          {
+            userinteractioncount: "39788",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1620564048466288640/likes",
+          },
+          {
+            userinteractioncount: "4228",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1620564048466288640/retweets",
+          },
+          {
+            userinteractioncount: "361",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1620564048466288640/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "2222",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1620564048466288640",
+          },
+          {
+            userinteractioncount: "230703",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/elonmusk/status/1620498352214532096/likes",
+          },
+          {
+            userinteractioncount: "11620",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/elonmusk/status/1620498352214532096/retweets",
+          },
+          {
+            userinteractioncount: "1329",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/elonmusk/status/1620498352214532096/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "12407",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/elonmusk/status/1620498352214532096",
+          },
+          {
+            userinteractioncount: "172740",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/elonmusk/status/1618444845701562370/likes",
+          },
+          {
+            userinteractioncount: "9096",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/elonmusk/status/1618444845701562370/retweets",
+          },
+          {
+            userinteractioncount: "1051",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/elonmusk/status/1618444845701562370/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "8223",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/elonmusk/status/1618444845701562370",
+          },
+          {
+            userinteractioncount: "18008",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1618376081802674176/likes",
+          },
+          {
+            userinteractioncount: "2900",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1618376081802674176/retweets",
+          },
+          {
+            userinteractioncount: "139",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1618376081802674176/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "1152",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1618376081802674176",
+          },
+          {
+            userinteractioncount: "3690",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1618364396421648384/likes",
+          },
+          {
+            userinteractioncount: "384",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1618364396421648384/retweets",
+          },
+          {
+            userinteractioncount: "33",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1618364396421648384/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "104",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1618364396421648384",
+          },
+          {
+            userinteractioncount: "4265",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1618364176652718081/likes",
+          },
+          {
+            userinteractioncount: "392",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1618364176652718081/retweets",
+          },
+          {
+            userinteractioncount: "34",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1618364176652718081/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "191",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1618364176652718081",
+          },
+          {
+            userinteractioncount: "2873",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1618363094752980993/likes",
+          },
+          {
+            userinteractioncount: "194",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1618363094752980993/retweets",
+          },
+          {
+            userinteractioncount: "9",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1618363094752980993/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "37",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1618363094752980993",
+          },
+          {
+            userinteractioncount: "3030",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1618363092697767936/likes",
+          },
+          {
+            userinteractioncount: "248",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1618363092697767936/retweets",
+          },
+          {
+            userinteractioncount: "13",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1618363092697767936/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "48",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1618363092697767936",
+          },
+          {
+            userinteractioncount: "27053",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1618363090449600515/likes",
+          },
+          {
+            userinteractioncount: "3270",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1618363090449600515/retweets",
+          },
+          {
+            userinteractioncount: "254",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1618363090449600515/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "1138",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1618363090449600515",
+          },
+          {
+            userinteractioncount: "20974",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1618285517887668230/likes",
+          },
+          {
+            userinteractioncount: "2425",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1618285517887668230/retweets",
+          },
+          {
+            userinteractioncount: "134",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1618285517887668230/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "935",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1618285517887668230",
+          },
+          {
+            userinteractioncount: "23401",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1618016126377799680/likes",
+          },
+          {
+            userinteractioncount: "2213",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1618016126377799680/retweets",
+          },
+          {
+            userinteractioncount: "119",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1618016126377799680/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "913",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1618016126377799680",
+          },
+          {
+            userinteractioncount: "20039",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1618016068852932610/likes",
+          },
+          {
+            userinteractioncount: "1763",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1618016068852932610/retweets",
+          },
+          {
+            userinteractioncount: "71",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1618016068852932610/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "567",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1618016068852932610",
+          },
+          {
+            userinteractioncount: "50483",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1618016066504118272/likes",
+          },
+          {
+            userinteractioncount: "5983",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1618016066504118272/retweets",
+          },
+          {
+            userinteractioncount: "811",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1618016066504118272/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "1831",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1618016066504118272",
+          },
+          {
+            userinteractioncount: "3080",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1616575118825914368/likes",
+          },
+          {
+            userinteractioncount: "223",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1616575118825914368/retweets",
+          },
+          {
+            userinteractioncount: "10",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1616575118825914368/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "105",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1616575118825914368",
+          },
+          {
+            userinteractioncount: "3673",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1616575116132974597/likes",
+          },
+          {
+            userinteractioncount: "253",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1616575116132974597/retweets",
+          },
+          {
+            userinteractioncount: "10",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1616575116132974597/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "212",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1616575116132974597",
+          },
+          {
+            userinteractioncount: "13493",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1616575113452732423/likes",
+          },
+          {
+            userinteractioncount: "1401",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1616575113452732423/retweets",
+          },
+          {
+            userinteractioncount: "79",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1616575113452732423/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "548",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1616575113452732423",
+          },
+          {
+            userinteractioncount: "2013",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1616173300908175361/likes",
+          },
+          {
+            userinteractioncount: "175",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1616173300908175361/retweets",
+          },
+          {
+            userinteractioncount: "11",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1616173300908175361/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "61",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1616173300908175361",
+          },
+          {
+            userinteractioncount: "3123",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1616173266028085258/likes",
+          },
+          {
+            userinteractioncount: "285",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1616173266028085258/retweets",
+          },
+          {
+            userinteractioncount: "29",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1616173266028085258/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "90",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1616173266028085258",
+          },
+          {
+            userinteractioncount: "2145",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1616172923785461760/likes",
+          },
+          {
+            userinteractioncount: "145",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1616172923785461760/retweets",
+          },
+          {
+            userinteractioncount: "13",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1616172923785461760/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "42",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1616172923785461760",
+          },
+          {
+            userinteractioncount: "1946",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1616172214407118849/likes",
+          },
+          {
+            userinteractioncount: "137",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1616172214407118849/retweets",
+          },
+          {
+            userinteractioncount: "9",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1616172214407118849/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "41",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1616172214407118849",
+          },
+          {
+            userinteractioncount: "17026",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1616172179690766362/likes",
+          },
+          {
+            userinteractioncount: "1746",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1616172179690766362/retweets",
+          },
+          {
+            userinteractioncount: "91",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1616172179690766362/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "920",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1616172179690766362",
+          },
+          {
+            userinteractioncount: "2527",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/TeslaSolar/status/1616142287297474561/likes",
+          },
+          {
+            userinteractioncount: "273",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/TeslaSolar/status/1616142287297474561/retweets",
+          },
+          {
+            userinteractioncount: "12",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/TeslaSolar/status/1616142287297474561/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "92",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/TeslaSolar/status/1616142287297474561",
+          },
+          {
+            userinteractioncount: "3482",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/TeslaSolar/status/1616142285082865666/likes",
+          },
+          {
+            userinteractioncount: "408",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/TeslaSolar/status/1616142285082865666/retweets",
+          },
+          {
+            userinteractioncount: "13",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/TeslaSolar/status/1616142285082865666/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "123",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/TeslaSolar/status/1616142285082865666",
+          },
+          {
+            userinteractioncount: "2070",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1615742001470734336/likes",
+          },
+          {
+            userinteractioncount: "228",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1615742001470734336/retweets",
+          },
+          {
+            userinteractioncount: "3",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1615742001470734336/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "68",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1615742001470734336",
+          },
+          {
+            userinteractioncount: "2766",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1615741999285522433/likes",
+          },
+          {
+            userinteractioncount: "242",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1615741999285522433/retweets",
+          },
+          {
+            userinteractioncount: "9",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1615741999285522433/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "73",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1615741999285522433",
+          },
+          {
+            userinteractioncount: "1828",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1615741589522890754/likes",
+          },
+          {
+            userinteractioncount: "147",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1615741589522890754/retweets",
+          },
+          {
+            userinteractioncount: "6",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1615741589522890754/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "23",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1615741589522890754",
+          },
+          {
+            userinteractioncount: "1494",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1615741586989801473/likes",
+          },
+          {
+            userinteractioncount: "106",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1615741586989801473/retweets",
+          },
+          {
+            userinteractioncount: "0",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1615741586989801473/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "15",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1615741586989801473",
+          },
+          {
+            userinteractioncount: "1980",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1615741584510783488/likes",
+          },
+          {
+            userinteractioncount: "155",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1615741584510783488/retweets",
+          },
+          {
+            userinteractioncount: "6",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1615741584510783488/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "43",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1615741584510783488",
+          },
+          {
+            userinteractioncount: "23835",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1615741577087062017/likes",
+          },
+          {
+            userinteractioncount: "2733",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1615741577087062017/retweets",
+          },
+          {
+            userinteractioncount: "196",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1615741577087062017/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "1352",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1615741577087062017",
+          },
+          {
+            userinteractioncount: "19642",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1613894897701896192/likes",
+          },
+          {
+            userinteractioncount: "1901",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1613894897701896192/retweets",
+          },
+          {
+            userinteractioncount: "153",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1613894897701896192/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "1332",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1613894897701896192",
+          },
+          {
+            userinteractioncount: "18757",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1613894894203838464/likes",
+          },
+          {
+            userinteractioncount: "1979",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1613894894203838464/retweets",
+          },
+          {
+            userinteractioncount: "94",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1613894894203838464/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "1355",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1613894894203838464",
+          },
+          {
+            userinteractioncount: "4702",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/TeslaCharging/status/1613654979428114432/likes",
+          },
+          {
+            userinteractioncount: "564",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/TeslaCharging/status/1613654979428114432/retweets",
+          },
+          {
+            userinteractioncount: "41",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/TeslaCharging/status/1613654979428114432/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "171",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/TeslaCharging/status/1613654979428114432",
+          },
+          {
+            userinteractioncount: "5043",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1613277774294261762/likes",
+          },
+          {
+            userinteractioncount: "626",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1613277774294261762/retweets",
+          },
+          {
+            userinteractioncount: "43",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1613277774294261762/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "243",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1613277774294261762",
+          },
+          {
+            userinteractioncount: "8103",
+            interactiontype: "https://schema.org/LikeAction",
+            name: "Likes",
+            url: "https://twitter.com/Tesla/status/1613264078507741185/likes",
+          },
+          {
+            userinteractioncount: "884",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Retweets",
+            url: "https://twitter.com/Tesla/status/1613264078507741185/retweets",
+          },
+          {
+            userinteractioncount: "87",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Quotes",
+            url: "https://twitter.com/Tesla/status/1613264078507741185/retweets/with_comments",
+          },
+          {
+            userinteractioncount: "419",
+            interactiontype: "https://schema.org/InteractAction",
+            name: "Replies",
+            url: "https://twitter.com/Tesla/status/1613264078507741185",
           },
         ],
         metatags: [
           {
             "og:image":
-              "https://i.guim.co.uk/img/media/48eee39f27197abc4862922f29b00d3336b8c5a5/0_0_5241_3144/master/5241.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bf886a8c60ca155a45442b5a99837c7f",
-            "twitter:app:id:googleplay": "com.guardian",
-            "twitter:app:url:iphone":
-              "gnmguardian://technology/2019/nov/22/cybertruck-tesla-unveils-the-pickup-truck-we-have-to-have?contenttype=Article&source=twitter",
-            "theme-color": "#052962",
-            "og:image:width": "1200",
-            "article:published_time": "2019-11-22T09:38:18.000Z",
-            "twitter:card": "summary_large_image",
-            "og:site_name": "the Guardian",
-            "apple-mobile-web-app-title": "Guardian",
-            "twitter:app:url:ipad":
-              "gnmguardian://technology/2019/nov/22/cybertruck-tesla-unveils-the-pickup-truck-we-have-to-have?contenttype=Article&source=twitter",
-            "twitter:app:name:googleplay": "The Guardian",
-            "msapplication-tileimage":
-              "https://assets.guim.co.uk/images/favicons/023dafadbf5ef53e0865e4baaaa32b3b/windows_tile_144_b.png",
-            "al:ios:url":
-              "gnmguardian://technology/2019/nov/22/cybertruck-tesla-unveils-the-pickup-truck-we-have-to-have?contenttype=Article&source=applinks",
-            "twitter:app:id:iphone": "409128287",
-            "og:description":
-              "Elon Musk says model essential to sustainable energy – but is embarrassed when ‘armour glass’ windows break",
-            "twitter:creator": "@marksweney",
-            "article:publisher": "https://www.facebook.com/theguardian",
-            "al:ios:app_store_id": "409128287",
-            "twitter:image":
-              "https://i.guim.co.uk/img/media/48eee39f27197abc4862922f29b00d3336b8c5a5/0_0_5241_3144/master/5241.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=9a7f7b06cd9e2744d1b521498beda3d6",
-            "twitter:dnt": "on",
-            "twitter:site": "@guardian",
-            "article:modified_time": "2019-11-22T18:15:00.000Z",
-            news_keywords:
-              "Tesla,Electric, hybrid and low-emission cars,Automotive industry,Business,Technology,Environment,Greenhouse gas emissions,Motoring",
-            "application-name": "The Guardian",
-            "msapplication-tilecolor": "#052962",
-            thumbnail:
-              "https://i.guim.co.uk/img/media/48eee39f27197abc4862922f29b00d3336b8c5a5/0_0_5241_3144/master/5241.jpg?width=620&quality=85&auto=format&fit=max&s=851dbffed617a24b3b0b268cb9e1ee7f",
-            "og:type": "article",
-            "article:section": "Technology",
-            handheldfriendly: "True",
-            "al:ios:app_name": "The Guardian",
-            author: "Mark Sweney",
-            "og:title":
-              "Cybertruck: Tesla unveils new pickup truck but windows break during demo",
-            "og:image:height": "720",
-            "twitter:app:id:ipad": "409128287",
-            "fb:pages": "10513336322",
-            "article:author": "https://www.theguardian.com/profile/marksweney",
-            "article:tag":
-              "Tesla,Electric, hybrid and low-emission cars,Automotive industry,Business,Technology,Environment,Greenhouse gas emissions,Motoring",
-            "fb:app_id": "180444840287",
-            "twitter:app:url:googleplay":
-              "guardian://www.theguardian.com/technology/2019/nov/22/cybertruck-tesla-unveils-the-pickup-truck-we-have-to-have",
-            "twitter:app:name:ipad": "The Guardian",
-            viewport: "width=device-width,minimum-scale=1,initial-scale=1",
-            "og:url":
-              "http://www.theguardian.com/technology/2019/nov/22/cybertruck-tesla-unveils-the-pickup-truck-we-have-to-have",
-            "twitter:app:name:iphone": "The Guardian",
-            "format-detection": "telephone=no",
+              "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_normal.png",
+            "theme-color": "#ffffff",
+            "og:type": "profile",
+            "og:site_name": "Twitter",
+            "al:ios:app_name": "Twitter",
+            "apple-mobile-web-app-title": "Twitter",
+            "og:title": "Tesla (@Tesla) / Twitter",
+            "al:android:package": "com.twitter.android",
+            "al:ios:url": "twitter://user?screen_name=Tesla",
+            "og:description": "Electric vehicles, giant batteries & solar",
+            "al:ios:app_store_id": "333903271",
+            "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+            "al:android:url": "twitter://user?screen_name=Tesla",
+            "fb:app_id": "2231777543",
+            "apple-mobile-web-app-status-bar-style": "white",
+            viewport:
+              "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://twitter.com/Tesla",
+            "al:android:app_name": "Twitter",
           },
         ],
-        newsarticle: [
+        videoobject: [
           {
-            image:
-              "https://i.guim.co.uk/img/media/48eee39f27197abc4862922f29b00d3336b8c5a5/0_0_5241_3144/master/5241.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=467b8c9bff42a2a3a2831d7ecd69c554",
-            articlebody:
-              "Elon Musk’s glitzy unveiling of the first Tesla “cybertruck” descended into farce when a PR stunt testing the “bulletproof” body strength of the electric vehicle resulted in smashed...",
+            duration: "PT0H1M5S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1621627317301776387",
             contenturl:
-              "https://i.guim.co.uk/img/media/8ac5e9246f17d2a118f3ccde744093f5562b3197/22_214_4606_2763/master/4606.jpg?width=460&quality=85&auto=format&fit=max&s=766b68db5e2a951fdfccbbb00e810ba3",
-            datemodified: "2019-11-22T13:15:00-0500",
-            description:
-              "Elon Musk says model essential to sustainable energy – but is embarrassed when ‘armour glass’ windows break",
-            headline:
-              "Cybertruck: Tesla unveils new pickup truck but windows break during demo",
-            datepublished: "2019-11-22T04:38:18-0500",
-            mainentityofpage:
-              "https://www.theguardian.com/technology/2019/nov/22/cybertruck-tesla-unveils-the-pickup-truck-we-have-to-have",
+              "https://video.twimg.com/ext_tw_video/1621626742434562050/pu/vid/1728x1080/v7S5PlmCAkLYjYPd.mp4?tag=14",
+            uploaddate: "2023-02-03T21:50:55.000Z",
+            name: "@Tesla's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/ext_tw_video_thumb/1621626742434562050/pu/img/APiRJgTqjef9XJip.jpg",
+          },
+          {
+            duration: "PT0H0M19S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1620564048466288640",
+            contenturl:
+              "https://video.twimg.com/amplify_video/1620563634756755456/vid/1080x1080/Pi0Fum-TrEDlscrs.mp4?tag=16",
+            uploaddate: "2023-01-31T23:25:52.000Z",
+            name: "@Tesla's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/amplify_video_thumb/1620563634756755456/img/G8-I31aZe_MA5mbO.jpg",
+          },
+          {
+            duration: "PT0H0M50S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1618016126377799680",
+            contenturl:
+              "https://video.twimg.com/ext_tw_video/1618014625261359109/pu/vid/1280x720/zoQoIAILSygRRvzH.mp4?tag=12",
+            uploaddate: "2023-01-24T22:41:20.000Z",
+            name: "@Tesla's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/ext_tw_video_thumb/1618014625261359109/pu/img/EXWXZMiGGp-6vkrk.jpg",
+          },
+          {
+            duration: "PT0H0M12S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1616173266028085258",
+            contenturl:
+              "https://video.twimg.com/ext_tw_video/1616173005939277825/pu/vid/1920x1080/lj2ciqfV_zx6TpIN.mp4?tag=14",
+            uploaddate: "2023-01-19T20:38:28.000Z",
+            name: "@Tesla's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/ext_tw_video_thumb/1616173005939277825/pu/img/ssZm-4evO8OBVW9e.jpg",
+          },
+          {
+            duration: "PT0H0M9S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1616172923785461760",
+            contenturl:
+              "https://video.twimg.com/ext_tw_video/1616172628523327489/pu/vid/1920x1080/bplKBEaPhfI7A29r.mp4?tag=14",
+            uploaddate: "2023-01-19T20:37:06.000Z",
+            name: "@Tesla's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/ext_tw_video_thumb/1616172628523327489/pu/img/CG4tmCGjMmsjJBfg.jpg",
+          },
+          {
+            duration: "PT0H0M10S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1616172214407118849",
+            contenturl:
+              "https://video.twimg.com/ext_tw_video/1616170364282748931/pu/vid/1280x720/u5POIKouhtFXgSTg.mp4?tag=12",
+            uploaddate: "2023-01-19T20:34:17.000Z",
+            name: "@Tesla's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/ext_tw_video_thumb/1616170364282748931/pu/img/vR62RWnrFiFIMQqf.jpg",
+          },
+          {
+            duration: "PT0H0M20S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1612485043347410950",
+            contenturl:
+              "https://video.twimg.com/amplify_video/1612484780469194752/vid/1920x1080/dSLXvl9xbd-fGHvO.mp4?tag=16",
+            uploaddate: "2023-01-09T16:22:47.000Z",
+            name: "@billykyle's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/amplify_video_thumb/1612484780469194752/img/wRSJF3Ap-MIhtSMF.jpg",
+          },
+          {
+            duration: "PT0H0M42S",
+            embedurl:
+              "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1613264078507741185",
+            contenturl:
+              "https://video.twimg.com/amplify_video/1613263925092425734/vid/1920x1080/vohmaexhF9rHjc99.mp4?tag=16",
+            uploaddate: "2023-01-11T19:58:23.000Z",
+            name: "@Tesla's video Tweet",
+            description: "Embedded video",
+            caption: "Embedded video",
+            thumbnailurl:
+              "https://pbs.twimg.com/amplify_video_thumb/1613263925092425734/img/AktTKjqupNf3-3uR.jpg",
           },
         ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title:
-        "Boeing Stock Is Surging Again. It's Looking More Like Tesla. - Barron's",
-      htmlTitle:
-        "Boeing Stock Is Surging Again. It&#39;s Looking More Like \u003cb\u003eTesla\u003c/b\u003e. - Barron&#39;s",
-      link:
-        "https://www.google.com/appserve/mkt/p/AD-FnEwaO8obsv6RV10TlGHwoFUq-LEk3nOrXtqUwM6l78bm3fId8EmmwCqQx7U2mL031YBGqvmS3g9IzsxL26Iae8GzGiqRt60sC5kqdwmx8uCRyoahgo5aC3dkaAJVQbJV78HLeKDgrOtqjKqGkDHVlqpsNjtgHQ4As24OzAAhbcheSbFz5cqW2xHo8j2cisXLI_SaXNA7_Q",
-      displayLink: "www.google.com",
-      snippet:
-        "Jun 8, 2020 ... The average bull-bear spread for stocks in the Dow is less than 50%. Price \ntargets on Tesla issued by large brokers range from about $300 to ...",
-      htmlSnippet:
-        "Jun 8, 2020 \u003cb\u003e...\u003c/b\u003e The average bull-bear spread for stocks in the Dow is less than 50%. Price \u003cbr\u003e\ntargets on \u003cb\u003eTesla\u003c/b\u003e issued by large brokers range from about $300 to&nbsp;...",
-      formattedUrl:
-        "https://www.google.com/.../AD-FnEwaO8obsv6RV10TlGHwoFUq- LEk3nOrXtqUwM6l78bm3fId8EmmwCqQx7U2mL031YBGqvmS3g9Izsx...",
-      htmlFormattedUrl:
-        "https://www.google.com/.../AD-FnEwaO8obsv6RV10TlGHwoFUq- LEk3nOrXtqUwM6l78bm3fId8EmmwCqQx7U2mL031YBGqvmS3g9Izsx...",
-      pagemap: {
-        cse_thumbnail: [
+        collection: [
           {
-            src:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhbn5SeBLZUkvgiTGel_ZAShifWaCNJCHTxaaXQoLK2SNgbrLr2RLpkFbC",
-            width: "318",
-            height: "159",
+            name: "Profile Tweets",
           },
         ],
-        imageobject: [
+        creativework: [
           {
-            creator: "Photograph by Jason Redmond/AFP via Getty Images",
-            caption: "Photograph by Jason Redmond/AFP via Getty Images",
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/11ug0LRlbD",
           },
           {
-            creator: "VCG/VCG via Getty Images",
-            caption: "VCG/VCG via Getty Images",
-          },
-        ],
-        organization: [
-          {
-            logo:
-              "https://asset.barrons.com/dj-mg/uploader/barronsLogoSEO-01.png",
-            url: "Barron's",
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/Ffw3KcxoGf",
           },
           {
-            url: "https://www.barrons.com/",
-            sameas: "https://www.facebook.com/barrons?mod=hp_FOOTER",
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/EJn7mt7Hdy",
           },
-        ],
-        metatags: [
           {
-            "article.origheadline":
-              "Boeing Stock Is Surging Again. It’s Looking More Like Tesla These Days.",
-            "og:image": "https://images.barrons.com/im-147671/social",
-            "twitter:card": "summary_large_image",
-            "og:image:width": "1280",
-            "dj.asn": "i-0283",
-            "page.site.product": "BOL",
-            language: "en-US",
-            datelastpubbed: "2020-06-08T14:03:00.000Z",
-            "article.access": "paid",
-            "og:description":
-              "Seaport Global launched coverage of the stock with the equivalent of a Buy rating,while Goldman Sachs raised its target for the price. Yet analysts are divided on what the stock is worth.",
-            "twitter:image:alt":
-              "Boeing Stock Is Surging Again. It’s Looking More Like Tesla These Days.",
-            "article.template": "full",
-            "article.section": "Daily",
-            "page.content.format": "responsive",
-            "cxenseparse:wsj-display": "Industrials",
-            "article:word_count": "626",
-            "article.created": "2020-06-08T14:03:00.000Z",
-            author: "Al Root",
-            "article:internal_link_count": "10",
-            "og:locale": "en_US",
-            "page.site": "Barrons Online",
-            "cxenseparse:wsj-ad-page": "Industrials",
-            "apple-itunes-app":
-              "app-id=409882593,app-argument=barrons://launch?articleid=SB51877856621523964598404586433920528200288&headline=Boeing%20Stock%20Is%20Surging%20Again.%20It%E2%80%99s%20Looking%20More%20Like%20Tesla%20These%20Days.&weburl=http://www.barrons.com/articles/SB51877856621523964598404586433920528200288",
-            "page.content.type": "Article",
-            "article:image_count": "1",
-            "article.id": "SB51877856621523964598404586433920528200288",
-            "article.page": "Daily",
-            "twitter:image": "https://images.barrons.com/im-147671/social",
-            "article.updated": "2020-06-08T14:03:00.000Z",
-            news_keywords:
-              "Aerospace Products/Parts,Aircraft Engines/Parts,Civil Aircraft,Aerospace/Defense,Industrial Goods,Financial Performance,Analysts' Comments/Recommendations,Share Price Movement/Disruptions,Corporate/Industrial News,Content Types",
-            "article.type.display": "Stock Alert",
-            "page.region": "na,us",
-            "article.summary":
-              "Seaport Global launched coverage of the stock with the equivalent of a Buy rating,while Goldman Sachs raised its target for the price. Yet analysts are divided on what the stock is worth.",
-            "twitter:title":
-              "Boeing Stock Is Surging Again. It’s Looking More Like Tesla These Days.",
-            "og:type": "article",
-            "og:title":
-              "Boeing Stock Is Surging Again. It’s Looking More Like Tesla These Days.",
-            "og:image:height": "640",
-            "page.content.source": "Barrons Online",
-            "parsely-title":
-              "Boeing Stock Is Surging Again. It’s Looking More Like Tesla These Days.",
-            "fb:app_id": "64579042740",
-            "article.published": "2020-06-08T14:03:00.000Z",
-            viewport:
-              "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
-            "user.exp": "google_bot",
-            "twitter:description":
-              "Seaport Global launched coverage of the stock with the equivalent of a Buy rating,while Goldman Sachs raised its target for the price. Yet analysts are divided on what the stock is worth.",
-            "user.type": "nonsubscriber",
-            "article.headline":
-              "Boeing Stock Is Surging Again. It’s Looking More Like Tesla These Days.",
-            "og:url":
-              "https://www.barrons.com/articles/boeing-stock-is-surging-again-its-looking-more-like-tesla-51591625019",
-            "article.type": "Stock Alert",
-            "article:external_link_count": "2",
-            "article:opinion": "false",
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/O8FipJIjAc",
           },
-        ],
-        webpage: [
           {
-            image: "https://images.barrons.com/im-147671/social",
-            articlebody:
-              "Text size Photograph by Jason Redmond/AFP via Getty Images The commercial aerospace giant Boeing is starting to look like Tesla, the electric-vehicle pioneer, in one respect: There is increasing...",
-            datemodified: "2020-06-08T14:03:00.000Z",
-            inlanguage: "en-US",
-            description:
-              "Seaport Global launched coverage of the stock with the equivalent of a Buy rating,while Goldman Sachs raised its target for the price. Yet analysts are divided on what the stock is worth.",
-            datecreated: "2020-06-08T14:03:00.000Z",
-            headline:
-              "Boeing Stock Is Surging Again. It’s Looking More Like Tesla These Days.",
-            datepublished: "2020-06-08T14:03:00.000Z",
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/uv7SrsUoG9",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/0O5U8jRerQ",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/1aF53hgWgM",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/JNL5ovciRJ",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/zQclrMASGM",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/pMVmQzmyCB",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/0cp8AAaSGb",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/P56UNtTVUo",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/6WkUryAhKO",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/82uFyKANI8",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/k4onev0rQP",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/4CBOIFLwAW",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/EwKh0BU8sT",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/1PR60q5kmP",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/Gd0ejoTtrN",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/1q4k0ljvu8",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/7mcnY2llU1",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/DXPmsEBz4d",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/MbLpakKpXt",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/8bZJhYb2UN",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/eOyaO3P5eN",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/XEUJdVzZTP",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/6pZhR9HQsz",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/2iTCt6hTAB",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/Jpr1EDSWCX",
+          },
+          {
+            name: "Expanded Tweet URLs",
+            url: "https://t.co/MXwkRHaiTe",
           },
         ],
         cse_image: [
           {
-            src: "https://images.barrons.com/im-147671/social",
+            src: "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_normal.png",
           },
         ],
-        listitem: [
+        socialmediaposting: [
           {
-            item: "Industrials",
+            identifier: "1623417306339590144",
+            commentcount: "332",
+            articlebody: "Event will be streamed live on Twitter & YouTube",
+            position: "1",
+            datecreated: "2023-02-08T20:23:42.000Z",
+            isbasedon:
+              "https://twitter.com/elonmusk/status/1623152067547394050",
+            datepublished: "2023-02-08T20:23:42.000Z",
+            url: "https://twitter.com/Tesla/status/1623417306339590144",
           },
           {
-            item: "China",
+            identifier: "1623246593238482945",
+            position: "2",
+            datecreated: "2023-02-08T09:05:20.000Z",
+            datepublished: "2023-02-08T09:05:20.000Z",
+          },
+          {
+            identifier: "1623152067547394050",
+            commentcount: "9289",
+            articlebody:
+              "Master Plan 3, the path to a fully sustainable energy future for Earth will be presented on March 1. The future is bright!",
+            datecreated: "2023-02-08T02:49:44.000Z",
+            datepublished: "2023-02-08T02:49:44.000Z",
+            url: "https://twitter.com/elonmusk/status/1623152067547394050",
+          },
+          {
+            identifier: "1623027199606460490",
+            position: "3",
+            datecreated: "2023-02-07T18:33:33.000Z",
+            datepublished: "2023-02-07T18:33:33.000Z",
+          },
+          {
+            identifier: "1623013436010680320",
+            commentcount: "104",
+            articlebody:
+              "Powerwall helped 3,700+ Texas solar owners avoid an outage during the winter storm last week",
+            datecreated: "2023-02-07T17:38:51.000Z",
+            isbasedon:
+              "https://twitter.com/JohnEG78/status/1620881654670852096",
+            datepublished: "2023-02-07T17:38:51.000Z",
+            url: "https://twitter.com/TeslaSolar/status/1623013436010680320",
+          },
+          {
+            identifier: "1621627317301776387",
+            commentcount: "1832",
+            articlebody: "Megapack Factory",
+            position: "4",
+            datecreated: "2023-02-03T21:50:55.000Z",
+            datepublished: "2023-02-03T21:50:55.000Z",
+            url: "https://twitter.com/Tesla/status/1621627317301776387",
+          },
+          {
+            identifier: "1620890660374204416",
+            position: "5",
+            datecreated: "2023-02-01T21:03:42.000Z",
+            datepublished: "2023-02-01T21:03:42.000Z",
+          },
+          {
+            identifier: "1620883535660998656",
+            commentcount: "512",
+            articlebody:
+              "Model S sets new record in the world’s biggest EV range test in Norway ❄️ →",
+            datecreated: "2023-02-01T20:35:24.000Z",
+            datepublished: "2023-02-01T20:35:24.000Z",
+            url: "https://twitter.com/tesla_europe/status/1620883535660998656",
+          },
+          {
+            identifier: "1620792323566346240",
+            commentcount: "1332",
+            articlebody:
+              "15 years ago today, we delivered the first Tesla Roadster → https://tesla.com/blog/re-p1-arriving-now…",
+            position: "6",
+            datecreated: "2023-02-01T14:32:57.000Z",
+            datepublished: "2023-02-01T14:32:57.000Z",
+            url: "https://twitter.com/Tesla/status/1620792323566346240",
+          },
+          {
+            identifier: "1620564048466288640",
+            commentcount: "2222",
+            articlebody:
+              "Melt snow & warm your cabin from a ski lift (or anywhere) in a few minutes using the Tesla app",
+            position: "7",
+            datecreated: "2023-01-31T23:25:52.000Z",
+            datepublished: "2023-01-31T23:25:52.000Z",
+            url: "https://twitter.com/Tesla/status/1620564048466288640",
+          },
+          {
+            identifier: "1620498650605690881",
+            position: "8",
+            datecreated: "2023-01-31T19:06:00.000Z",
+            datepublished: "2023-01-31T19:06:00.000Z",
+          },
+          {
+            identifier: "1620498352214532096",
+            commentcount: "12407",
+            articlebody:
+              "What the Tesla Giga Nevada factory will look like when finished.",
+            datecreated: "2023-01-31T19:04:49.000Z",
+            datepublished: "2023-01-31T19:04:49.000Z",
+            url: "https://twitter.com/elonmusk/status/1620498352214532096",
+          },
+          {
+            identifier: "1618548933147643904",
+            position: "9",
+            datecreated: "2023-01-26T09:58:31.000Z",
+            datepublished: "2023-01-26T09:58:31.000Z",
+          },
+          {
+            identifier: "1618444845701562370",
+            commentcount: "8223",
+            articlebody:
+              "Congrats Tesla California factory team on all-time record production!",
+            datecreated: "2023-01-26T03:04:55.000Z",
+            datepublished: "2023-01-26T03:04:55.000Z",
+            url: "https://twitter.com/elonmusk/status/1618444845701562370",
+          },
+          {
+            identifier: "1618376081802674176",
+            commentcount: "1152",
+            articlebody: "Q4 2022 Earnings Call",
+            position: "10",
+            datecreated: "2023-01-25T22:31:40.000Z",
+            datepublished: "2023-01-25T22:31:40.000Z",
+            url: "https://twitter.com/Tesla/status/1618376081802674176",
+          },
+          {
+            identifier: "1618364396421648384",
+            commentcount: "104",
+            articlebody:
+              "Energy storage deployments increased by 152% YoY to 2.5 GWh in Q4, for a total deployment of 6.5 GWh in 2022—by far the highest level we have achieved. We’re ramping production at our dedicated...",
+            ispartof: "https://twitter.com/Tesla/status/1618364176652718081",
+            position: "11",
+            datecreated: "2023-01-25T21:45:14.000Z",
+            datepublished: "2023-01-25T21:45:14.000Z",
+            url: "https://twitter.com/Tesla/status/1618364396421648384",
+          },
+          {
+            identifier: "1618364176652718081",
+            commentcount: "191",
+            articlebody:
+              "We have now released FSD Beta to nearly all customers in the US and Canada who bought FSD (approximately 400k)",
+            ispartof: "https://twitter.com/Tesla/status/1618363094752980993",
+            position: "12",
+            datecreated: "2023-01-25T21:44:22.000Z",
+            datepublished: "2023-01-25T21:44:22.000Z",
+            url: "https://twitter.com/Tesla/status/1618364176652718081",
+          },
+          {
+            identifier: "1618363094752980993",
+            commentcount: "37",
+            articlebody:
+              "Giga Shanghai continues to be our main export hub, supplying most markets outside of North America",
+            ispartof: "https://twitter.com/Tesla/status/1618363092697767936",
+            position: "13",
+            datecreated: "2023-01-25T21:40:04.000Z",
+            datepublished: "2023-01-25T21:40:04.000Z",
+            url: "https://twitter.com/Tesla/status/1618363094752980993",
+          },
+          {
+            identifier: "1618363092697767936",
+            commentcount: "48",
+            articlebody:
+              "Also in Q4, both Giga Texas and Giga Berlin achieved production of 3k Model Y in a week 🚘 We also produced in one week enough in-house 4680 cells to make 1k+ battery packs, & started pilot...",
+            ispartof: "https://twitter.com/Tesla/status/1618363090449600515",
+            position: "14",
+            datecreated: "2023-01-25T21:40:03.000Z",
+            datepublished: "2023-01-25T21:40:03.000Z",
+            url: "https://twitter.com/Tesla/status/1618363092697767936",
+          },
+          {
+            identifier: "1618363090449600515",
+            commentcount: "1138",
+            articlebody:
+              "In 2022, we produced & delivered 1.3M+ vehicles 💪 In Q4 we achieved our highest-ever quarterly revenue, operating income & net income → https://tesla-cdn.thron.com/static/GZR0GS_TSLA_Q4_2022_U...",
+            position: "15",
+            datecreated: "2023-01-25T21:40:03.000Z",
+            datepublished: "2023-01-25T21:40:03.000Z",
+            url: "https://twitter.com/Tesla/status/1618363090449600515",
+          },
+          {
+            identifier: "1618285517887668230",
+            commentcount: "935",
+            articlebody: "Full presentation → https://youtu.be/OLdIPmE4dCs",
+            position: "16",
+            datecreated: "2023-01-25T16:31:48.000Z",
+            isbasedon: "https://twitter.com/Tesla/status/1618016066504118272",
+            datepublished: "2023-01-25T16:31:48.000Z",
+            url: "https://twitter.com/Tesla/status/1618285517887668230",
+          },
+          {
+            identifier: "1618016126377799680",
+            commentcount: "913",
+            articlebody:
+              "Thank you to the Tesla team, our supply chain partners & the local community that helped us get here!",
+            ispartof: "https://twitter.com/Tesla/status/1618016068852932610",
+            position: "17",
+            datecreated: "2023-01-24T22:41:20.000Z",
+            datepublished: "2023-01-24T22:41:20.000Z",
+            url: "https://twitter.com/Tesla/status/1618016126377799680",
+          },
+          {
+            identifier: "1618016068852932610",
+            commentcount: "567",
+            articlebody:
+              "We've come a long way since we broke ground at Giga Nevada in 2014. To date, the team there has successfully produced: - 7 billion battery cells - 1.5 million battery packs - 3.6 million drive...",
+            ispartof: "https://twitter.com/Tesla/status/1618016066504118272",
+            position: "18",
+            datecreated: "2023-01-24T22:41:06.000Z",
+            datepublished: "2023-01-24T22:41:06.000Z",
+            url: "https://twitter.com/Tesla/status/1618016068852932610",
+          },
+          {
+            identifier: "1618016066504118272",
+            commentcount: "1831",
+            articlebody:
+              "Today, we’re announcing $3.6B of new investment in Giga Nevada. - 4M sq ft of new manufacturing footprint - 3k additional team members - 2 new manufacturing facilities: a 100 GWh 4680 cell...",
+            position: "19",
+            datecreated: "2023-01-24T22:41:06.000Z",
+            datepublished: "2023-01-24T22:41:06.000Z",
+            url: "https://twitter.com/Tesla/status/1618016066504118272",
+          },
+          {
+            identifier: "1616575118825914368",
+            commentcount: "105",
+            articlebody:
+              "For Supercharging, we use this same principle to warm up the battery pack, so you can charge faster & get back on the road, sooner",
+            ispartof: "https://twitter.com/Tesla/status/1616575116132974597",
+            position: "20",
+            datecreated: "2023-01-20T23:15:17.000Z",
+            datepublished: "2023-01-20T23:15:17.000Z",
+            url: "https://twitter.com/Tesla/status/1616575118825914368",
+          },
+          {
+            identifier: "1616575116132974597",
+            commentcount: "212",
+            articlebody:
+              "To keep occupants comfortable, we can draw excess heat from outside environment & powertrain to heat the cabin, improving heating efficiency & boosting range",
+            ispartof: "https://twitter.com/Tesla/status/1616575113452732423",
+            position: "21",
+            datecreated: "2023-01-20T23:15:16.000Z",
+            datepublished: "2023-01-20T23:15:16.000Z",
+            url: "https://twitter.com/Tesla/status/1616575116132974597",
+          },
+          {
+            identifier: "1616575113452732423",
+            commentcount: "548",
+            articlebody:
+              "Heat Pump allows us to move heat around to whatever system needs it most, giving Tesla vehicles unmatched efficiency in cold weather →",
+            position: "22",
+            datecreated: "2023-01-20T23:15:16.000Z",
+            datepublished: "2023-01-20T23:15:16.000Z",
+            url: "https://twitter.com/Tesla/status/1616575113452732423",
+          },
+          {
+            identifier: "1616173300908175361",
+            commentcount: "61",
+            articlebody: "Track Mode details →",
+            ispartof: "https://twitter.com/Tesla/status/1616173266028085258",
+            position: "23",
+            datecreated: "2023-01-19T20:38:36.000Z",
+            datepublished: "2023-01-19T20:38:36.000Z",
+            url: "https://twitter.com/Tesla/status/1616173300908175361",
+          },
+          {
+            identifier: "1616173266028085258",
+            commentcount: "90",
+            articlebody:
+              "Adjustable traction control, stability control & regenerative braking let you fine tune your handling from your touchscreen",
+            ispartof: "https://twitter.com/Tesla/status/1616172923785461760",
+            position: "24",
+            datecreated: "2023-01-19T20:38:28.000Z",
+            datepublished: "2023-01-19T20:38:28.000Z",
+            url: "https://twitter.com/Tesla/status/1616173266028085258",
+          },
+          {
+            identifier: "1616172923785461760",
+            commentcount: "42",
+            articlebody:
+              "Track-focused powertrain cooling & increased regenerative braking unlock longer track sessions so you can push harder, lap after lap",
+            ispartof: "https://twitter.com/Tesla/status/1616172214407118849",
+            position: "25",
+            datecreated: "2023-01-19T20:37:06.000Z",
+            datepublished: "2023-01-19T20:37:06.000Z",
+            url: "https://twitter.com/Tesla/status/1616172923785461760",
+          },
+          {
+            identifier: "1616172214407118849",
+            commentcount: "41",
+            articlebody:
+              "When cornering, Track Mode automatically shifts power front-to-rear & side-to-side to give you better turn-in response & maximum control",
+            ispartof: "https://twitter.com/Tesla/status/1616172179690766362",
+            position: "26",
+            datecreated: "2023-01-19T20:34:17.000Z",
+            datepublished: "2023-01-19T20:34:17.000Z",
+            url: "https://twitter.com/Tesla/status/1616172214407118849",
+          },
+          {
+            identifier: "1616172179690766362",
+            commentcount: "920",
+            articlebody:
+              "Track Mode lets you use your Tesla’s instant response & motor torque to feel superhuman on the track—available on Model S Plaid + Model 3 & Y Performance",
+            position: "27",
+            datecreated: "2023-01-19T20:34:09.000Z",
+            datepublished: "2023-01-19T20:34:09.000Z",
+            url: "https://twitter.com/Tesla/status/1616172179690766362",
+          },
+          {
+            identifier: "1616154284671762444",
+            position: "28",
+            datecreated: "2023-01-19T19:23:02.000Z",
+            datepublished: "2023-01-19T19:23:02.000Z",
+          },
+          {
+            identifier: "1616142287297474561",
+            commentcount: "92",
+            articlebody: "24/7 sustainable electricity 🌎 →",
+            ispartof:
+              "https://twitter.com/TeslaSolar/status/1616142285082865666",
+            datecreated: "2023-01-19T18:35:22.000Z",
+            datepublished: "2023-01-19T18:35:22.000Z",
+            url: "https://twitter.com/TeslaSolar/status/1616142287297474561",
+          },
+          {
+            identifier: "1616154273657520143",
+            position: "29",
+            datecreated: "2023-01-19T19:23:00.000Z",
+            datepublished: "2023-01-19T19:23:00.000Z",
+          },
+          {
+            identifier: "1616142285082865666",
+            commentcount: "123",
+            articlebody:
+              "Tesla Solar Inverter generates the most energy for the lowest all-in cost over the lifetime of the system → https://ts.la/TeslaInverter",
+            datecreated: "2023-01-19T18:35:21.000Z",
+            datepublished: "2023-01-19T18:35:21.000Z",
+            url: "https://twitter.com/TeslaSolar/status/1616142285082865666",
+          },
+          {
+            identifier: "1615742001470734336",
+            commentcount: "68",
+            articlebody: "Supercharging FAQ @TeslaCharging →",
+            ispartof: "https://twitter.com/Tesla/status/1615741999285522433",
+            position: "30",
+            datecreated: "2023-01-18T16:04:46.000Z",
+            datepublished: "2023-01-18T16:04:46.000Z",
+            url: "https://twitter.com/Tesla/status/1615742001470734336",
+          },
+          {
+            identifier: "1615741999285522433",
+            commentcount: "73",
+            articlebody:
+              "Your Tesla will charge faster at a low battery level. Depending on your destination, charging to 100% often isn’t necessary—your car will notify you when you have enough charge to continue...",
+            ispartof: "https://twitter.com/Tesla/status/1615741589522890754",
+            position: "31",
+            datecreated: "2023-01-18T16:04:46.000Z",
+            datepublished: "2023-01-18T16:04:46.000Z",
+            url: "https://twitter.com/Tesla/status/1615741999285522433",
+          },
+          {
+            identifier: "1615741589522890754",
+            commentcount: "23",
+            articlebody:
+              "To start charging, simply plug in—no need to swipe a credit card Supercharging history is automatically populated in your Tesla Account, showing the credits used or the amount billed",
+            ispartof: "https://twitter.com/Tesla/status/1615741586989801473",
+            position: "32",
+            datecreated: "2023-01-18T16:03:08.000Z",
+            datepublished: "2023-01-18T16:03:08.000Z",
+            url: "https://twitter.com/Tesla/status/1615741589522890754",
+          },
+          {
+            identifier: "1615741586989801473",
+            commentcount: "15",
+            articlebody:
+              "Tap the Charging ⚡️ icon on your touchscreen to view Superchargers around you. Each location has an overview of billing structure (per kWh or per minute), pricing & nearby amenities",
+            ispartof: "https://twitter.com/Tesla/status/1615741584510783488",
+            position: "33",
+            datecreated: "2023-01-18T16:03:08.000Z",
+            datepublished: "2023-01-18T16:03:08.000Z",
+            url: "https://twitter.com/Tesla/status/1615741586989801473",
+          },
+          {
+            identifier: "1615741584510783488",
+            commentcount: "43",
+            articlebody:
+              "Simply enter your destination & your vehicle will automatically include Supercharging stops & preheat the battery to enable faster charging speeds. Within 15 minutes, you can recover up to...",
+            ispartof: "https://twitter.com/Tesla/status/1615741577087062017",
+            position: "34",
+            datecreated: "2023-01-18T16:03:07.000Z",
+            datepublished: "2023-01-18T16:03:07.000Z",
+            url: "https://twitter.com/Tesla/status/1615741584510783488",
+          },
+          {
+            identifier: "1615741577087062017",
+            commentcount: "1352",
+            articlebody:
+              "Tesla operates the world’s largest global fast-charging network—40k+ Superchargers in 46 countries, located near amenities & optimized for high-speed charging on road trips",
+            position: "35",
+            datecreated: "2023-01-18T16:03:05.000Z",
+            datepublished: "2023-01-18T16:03:05.000Z",
+            url: "https://twitter.com/Tesla/status/1615741577087062017",
+          },
+          {
+            identifier: "1613894897701896192",
+            commentcount: "1332",
+            articlebody: "Tesla owners collectively saved $2B+ in 2022 ⚡️",
+            ispartof: "https://twitter.com/Tesla/status/1613894894203838464",
+            position: "36",
+            datecreated: "2023-01-13T13:45:02.000Z",
+            datepublished: "2023-01-13T13:45:02.000Z",
+            url: "https://twitter.com/Tesla/status/1613894897701896192",
+          },
+          {
+            identifier: "1613894894203838464",
+            commentcount: "1355",
+            articlebody:
+              "View your charging history & savings for the full year in the Tesla app",
+            position: "37",
+            datecreated: "2023-01-13T13:45:02.000Z",
+            datepublished: "2023-01-13T13:45:02.000Z",
+            url: "https://twitter.com/Tesla/status/1613894894203838464",
+          },
+          {
+            identifier: "1613849689861799938",
+            position: "38",
+            datecreated: "2023-01-13T10:45:24.000Z",
+            datepublished: "2023-01-13T10:45:24.000Z",
+          },
+          {
+            identifier: "1613654979428114432",
+            commentcount: "171",
+            articlebody: "Wifi coming to a Supercharger near you 📶",
+            datecreated: "2023-01-12T21:51:42.000Z",
+            isbasedon:
+              "https://twitter.com/JustStarman/status/1613303241596620800",
+            datepublished: "2023-01-12T21:51:42.000Z",
+            url: "https://twitter.com/TeslaCharging/status/1613654979428114432",
+          },
+          {
+            identifier: "1613277774294261762",
+            commentcount: "243",
+            articlebody:
+              "360 MWh of Megapacks—capable of serving renewable energy to 60k homes 🔋 → https://youtu.be/lV9zZ3CuT4I",
+            position: "39",
+            datecreated: "2023-01-11T20:52:49.000Z",
+            isbasedon:
+              "https://twitter.com/billykyle/status/1612485043347410950",
+            datepublished: "2023-01-11T20:52:49.000Z",
+            url: "https://twitter.com/Tesla/status/1613277774294261762",
+          },
+          {
+            identifier: "1613264078507741185",
+            commentcount: "419",
+            articlebody: "Model Y ❄️ Waltz",
+            position: "40",
+            datecreated: "2023-01-11T19:58:23.000Z",
+            datepublished: "2023-01-11T19:58:23.000Z",
+            url: "https://twitter.com/Tesla/status/1613264078507741185",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "finance - Google Search",
-      htmlTitle: "finance - Google Search",
-      link: "https://www.google.com/finance",
-      displayLink: "www.google.com",
+      title: "Model Y | Tesla",
+      htmlTitle: "Model Y | \u003cb\u003eTesla\u003c/b\u003e",
+      link: "https://www.tesla.com/modely",
+      displayLink: "www.tesla.com",
       snippet:
-        "Monitor the market with Google Finance. Get free stock quotes and up-to-date \nfinancial news.",
+        "Safety is the most important part of every Tesla. We design our vehicles to exceed safety standards. 5-Star Rating Model Y achieved NHTSA 5-star safety ...",
       htmlSnippet:
-        "Monitor the market with Google Finance. Get free stock quotes and up-to-date \u003cbr\u003e\nfinancial news.",
-      cacheId: "bkzF3n9XpJ4J",
-      formattedUrl: "https://www.google.com/finance",
-      htmlFormattedUrl: "https://www.google.com/finance",
+        "Safety is the most important part of every \u003cb\u003eTesla\u003c/b\u003e. We design our vehicles to exceed safety standards. 5-Star Rating Model Y achieved NHTSA 5-star safety&nbsp;...",
+      cacheId: "vnqzzT4OpNIJ",
+      formattedUrl: "https://www.tesla.com/modely",
+      htmlFormattedUrl:
+        "https://www.\u003cb\u003etesla\u003c/b\u003e.com/modely",
       pagemap: {
-        searchresultspage: [
+        cse_thumbnail: [
           {
-            image:
-              "/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSWGH36JABL3h-RTlwOPzxgr9WDC5CgvSpNo6ef0WHT-tsGgGBXD6E8U_o",
+            width: "311",
+            height: "162",
+          },
+        ],
+        metatags: [
+          {
+            "og:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/8bdb0faa-e77a-4072-aabd-0bb2e0a2454e/bvlatuR/std/1200x628/Model-Y-Social-Global?quality=auto-medium&format=auto",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#000000",
+            "og:site_name": "Model Y",
+            "twitter:url": "https://www.tesla.com/modely",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
+            "og:description":
+              "Model Y is a fully electric, mid-size SUV with unparalleled protection and versatile cargo space.",
+            "twitter:creator": "@tesla",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/8bdb0faa-e77a-4072-aabd-0bb2e0a2454e/bvlatuR/std/1200x628/Model-Y-Social-Global?quality=auto-medium&format=auto",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/8bdb0faa-e77a-4072-aabd-0bb2e0a2454e/bvlatuR/std/1200x628/Model-Y-Social-Global?quality=auto-medium&format=auto",
+            "twitter:image:alt": "Model Y",
+            "twitter:site": "@tesla",
+            "msapplication-tilecolor": "#cc0000",
+            "og:type": "website",
+            "og:image:alt": "Model Y",
+            "twitter:title": "Model Y | Tesla",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/8bdb0faa-e77a-4072-aabd-0bb2e0a2454e/bvlatuR/std/1200x628/Model-Y-Social-Global?quality=auto-medium&format=auto",
+            handheldfriendly: "true",
+            "image:alt_text": "Tesla logo in gray on white background",
+            "og:title": "Model Y | Tesla",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport:
+              "width=device-width, minimum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover",
+            "twitter:description":
+              "Model Y is a fully electric, mid-size SUV with unparalleled protection and versatile cargo space.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/modely",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/8bdb0faa-e77a-4072-aabd-0bb2e0a2454e/bvlatuR/std/1200x628/Model-Y-Social-Global?quality=auto-medium&format=auto",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tesla, Inc. - Wikipedia",
+      htmlTitle: "\u003cb\u003eTesla\u003c/b\u003e, Inc. - Wikipedia",
+      link: "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+      displayLink: "en.wikipedia.org",
+      snippet:
+        "Tesla designs and manufactures electric vehicles (electric cars and trucks), battery energy storage from home to grid-scale, solar panels and solar roof tiles, ...",
+      htmlSnippet:
+        "\u003cb\u003eTesla\u003c/b\u003e designs and manufactures electric vehicles (electric cars and trucks), battery energy storage from home to grid-scale, solar panels and solar roof tiles,&nbsp;...",
+      formattedUrl: "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+      htmlFormattedUrl:
+        "https://en.wikipedia.org/wiki/\u003cb\u003eTesla\u003c/b\u003e,_Inc.",
+      pagemap: {
+        hcard: [
+          {
+            url_text: "www.tesla.com",
+            bday: "2003-07-01",
+            fn: "Tesla, Inc.",
+            nickname: "Tesla Motors, Inc. (July 2003 – February 2017)",
+            logo: "Gigafactory Texas, Tesla headquarters in Austin, Texas",
+            label: "13101 Tesla Road, Austin, Texas, U.S.",
+            category: "Public",
+            url: "www.tesla.com",
           },
         ],
         metatags: [
           {
             referrer: "origin",
-            viewport: "width=device-width,initial-scale=1.0,minimum-scale=1.0",
-            google: "notranslate",
+            "og:image":
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gigafactory_Texas_Building_1_June_2022.jpg/1200px-Gigafactory_Texas_Building_1_June_2022.jpg",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
+            "og:type": "website",
+            viewport:
+              "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Tesla, Inc. - Wikipedia",
+            "og:image:height": "675",
             "format-detection": "telephone=no",
           },
         ],
@@ -594,146 +2649,118 @@ export default {
     },
     {
       kind: "customsearch#result",
-      title: "ENVOY, 34 Tesla, Irvine, CA, 92618, us - Google Maps",
+      title: "Tesla Inc (TSLA) Stock Price & News - Google Finance",
       htmlTitle:
-        "ENVOY, 34 \u003cb\u003eTesla\u003c/b\u003e, Irvine, CA, 92618, us - Google Maps",
-      link:
-        "https://www.google.com/maps/search/?api=1&query=ENVOY%2C+34+Tesla%2C+Irvine%2C+CA%2C+92618%2C+us&query_place_id=ChIJ4WwhQXTo3IARoOuY0JVd1kc",
+        "\u003cb\u003eTesla\u003c/b\u003e Inc (TSLA) Stock Price &amp; News - Google Finance",
+      link: "https://www.google.com/finance/quote/TSLA:NASDAQ?hl=en",
       displayLink: "www.google.com",
       snippet:
-        "ENVOY, 34 Tesla, Irvine, CA, 92618, us. Your location. Trails. Dedicated lanes. \nBicycle-friendly roads. Dirt/unpaved trails. Live traffic. Fast. Slow. 1000 km.",
+        "Get the latest Tesla Inc (TSLA) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and ...",
       htmlSnippet:
-        "ENVOY, 34 \u003cb\u003eTesla\u003c/b\u003e, Irvine, CA, 92618, us. Your location. Trails. Dedicated lanes. \u003cbr\u003e\nBicycle-friendly roads. Dirt/unpaved trails. Live traffic. Fast. Slow. 1000 km.",
-      cacheId: "AiPpmXiztGoJ",
-      formattedUrl:
-        "https://www.google.com/maps/search/?api=1...34+Tesla%2C...",
+        "Get the latest \u003cb\u003eTesla\u003c/b\u003e Inc (TSLA) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and&nbsp;...",
+      formattedUrl: "https://www.google.com/finance/quote/TSLA:NASDAQ?hl=en",
       htmlFormattedUrl:
-        "https://www.google.com/maps/search/?api=1...34+\u003cb\u003eTesla\u003c/b\u003e%2C...",
+        "https://www.google.com/finance/quote/TSLA:NASDAQ?hl=en",
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQUDTMfgWSotdHvbOKW4AmY1steqsilnDJS4q33zGx-d0AXvvxPiFY9Mvs",
-            width: "204",
-            height: "247",
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQldTHAz14MiWY-2bpICyONYLUjcoY7hJc8AQj1tmfmhHDQ43UNmSVu_8",
+            width: "311",
+            height: "162",
+          },
+        ],
+        metatags: [
+          {
+            "application-name": "Google Finance",
+            "og:image":
+              "https://ssl.gstatic.com/finance/favicon/finance_770x402.png",
+            "theme-color": "#ffffff",
+            "og:type": "website",
+            "og:image:width": "770",
+            "twitter:card": "summary",
+            "twitter:title":
+              "Tesla Inc (TSLA) Stock Price & News - Google Finance",
+            "apple-mobile-web-app-title": "Google Finance",
+            "og:title": "Tesla Inc (TSLA) Stock Price & News - Google Finance",
+            "og:image:height": "402",
+            "og:description":
+              "Get the latest Tesla Inc (TSLA) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and investment decisions.",
+            "twitter:image":
+              "https://ssl.gstatic.com/finance/favicon/finance_496x496.png",
+            referrer: "origin",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "msapplication-tap-highlight": "no",
+            "twitter:site": "@google",
+            viewport:
+              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
+            "apple-mobile-web-app-capable": "yes",
+            "twitter:description":
+              "Get the latest Tesla Inc (TSLA) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and investment decisions.",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://www.google.com/finance/quote/TSLA:NASDAQ",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://ssl.gstatic.com/finance/favicon/finance_770x402.png",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Nikola Tesla - Wikipedia",
+      htmlTitle: "Nikola \u003cb\u003eTesla\u003c/b\u003e - Wikipedia",
+      link: "https://en.wikipedia.org/wiki/Nikola_Tesla",
+      displayLink: "en.wikipedia.org",
+      snippet:
+        "Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the design of the ...",
+      htmlSnippet:
+        "Nikola \u003cb\u003eTesla\u003c/b\u003e was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the design of the&nbsp;...",
+      cacheId: "ffC4b7aiemYJ",
+      formattedUrl: "https://en.wikipedia.org/wiki/Nikola_Tesla",
+      htmlFormattedUrl:
+        "https://en.wikipedia.org/wiki/Nikola_\u003cb\u003eTesla\u003c/b\u003e",
+      pagemap: {
+        hcard: [
+          {
+            note: "Projects Alternating current High-voltage, high-frequency power experiments",
+            bday: "1856-07-10",
+            fn: "Nikola Tesla",
+            label:
+              "Nikola Tesla Museum, Belgrade, Serbia .mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output...",
+            category:
+              ".mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-b...",
+          },
+        ],
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRrp6ggHdGyPffv84BXO3smZr-_J7uLJjw2wINb5ooTq_0YqGB1TgniYaM",
+            width: "112",
+            height: "150",
           },
         ],
         metatags: [
           {
             referrer: "origin",
-            "twitter:card": "summary",
-            "theme-color": "#3367D6",
-            viewport: "initial-scale=1.0, user-scalable=no",
-            google: "notranslate",
-          },
-        ],
-        cse_image: [
-          {
-            src:
-              "https://maps.gstatic.com/tactile/basepage/pegman_sherlock.png",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic ...",
-      htmlTitle:
-        "Book Elon Musk: \u003cb\u003eTesla\u003c/b\u003e, SpaceX, and the Quest for a Fantastic ...",
-      link:
-        "https://www.google.com/mymaps/viewer?mid=1dPda4XwQEInUGp2TikmT4_-tRtI&hl=en_US",
-      displayLink: "www.google.com",
-      snippet:
-        "PDF Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Popular \nOnline Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Free pdf ...",
-      htmlSnippet:
-        "PDF Elon Musk: \u003cb\u003eTesla\u003c/b\u003e, SpaceX, and the Quest for a Fantastic Future Popular \u003cbr\u003e\nOnline Elon Musk: \u003cb\u003eTesla\u003c/b\u003e, SpaceX, and the Quest for a Fantastic Future Free pdf&nbsp;...",
-      cacheId: "pi-mPp7Ak3wJ",
-      formattedUrl: "https://www.google.com/mymaps/viewer?mid...tRtI&hl=en_US",
-      htmlFormattedUrl:
-        "https://www.google.com/mymaps/viewer?mid...tRtI&amp;hl=en_US",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src:
-              "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQR5iGVxkEayMgDbWqxofm34HwOcF44ynsk1Jy0MKv4oq-9rgLeNiGz-fo",
-            width: "225",
-            height: "225",
-          },
-        ],
-        website: [
-          {
-            image:
-              "https://www.google.com/maps/d/thumbnail?mid=1dPda4XwQEInUGp2TikmT4_-tRtI&hl=en_US",
-            name:
-              "Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Full Page E-Books Download #U#",
-            description:
-              "PDF Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Popular Online Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Free pdf Download Elon Musk: Tesla, SpaceX,...",
-            url:
-              "https://www.google.com/maps/d/viewer?mid=1dPda4XwQEInUGp2TikmT4_-tRtI&hl=en_US",
-          },
-        ],
-        metatags: [
-          {
             "og:image":
-              "https://www.google.com/maps/d/thumbnail?mid=1dPda4XwQEInUGp2TikmT4_-tRtI&hl=en_US",
+              "https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
             "og:type": "website",
-            "twitter:card": "summary_large_image",
-            "twitter:title":
-              "Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Full Page E-Books Download #U#",
             viewport:
-              "initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0,width=device-width",
-            "twitter:description":
-              "PDF Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Popular Online\nElon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Free pdf\nDownload Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future full books\nAshlee Vance ePub Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future pdf free download\nElon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future pdf download\neBooks Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Full Download\nElon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future free download\nPDF Download Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future full ebook\nFree Download Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future PDF\nPDF Download Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Full online\nePub Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future free collection\nFree Download Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Best Book Ashlee Vance\nElon Musk: ",
-            "og:title":
-              "Book Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Full Page E-Books Download #U#",
-            "og:url":
-              "https://www.google.com/maps/d/viewer?mid=1dPda4XwQEInUGp2TikmT4_-tRtI&hl=en_US",
-            "og:description":
-              "PDF Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Popular Online\nElon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Free pdf\nDownload Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future full books\nAshlee Vance ePub Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future pdf free download\nElon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future pdf download\neBooks Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Full Download\nElon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future free download\nPDF Download Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future full ebook\nFree Download Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future PDF\nPDF Download Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Full online\nePub Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future free collection\nFree Download Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future Best Book Ashlee Vance\nElon Musk: ",
-            "twitter:image:src":
-              "https://www.google.com/maps/d/thumbnail?mid=1dPda4XwQEInUGp2TikmT4_-tRtI&hl=en_US",
+              "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Nikola Tesla - Wikipedia",
+            "og:image:height": "1609",
+            "format-detection": "telephone=no",
           },
         ],
         cse_image: [
           {
-            src: "https://khms0.googleapis.com/kh?v=746&hl=en&x=0&y=0&z=0",
+            src: "https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg",
           },
         ],
       },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Tesla Mtrs: SWX:TSLA historical prices - Google Finance",
-      htmlTitle:
-        "\u003cb\u003eTesla\u003c/b\u003e Mtrs: SWX:TSLA historical prices - Google Finance",
-      link:
-        "https://www.google.com/finance/historical?q=SWX:TSLA&ei=tMRlWJG4MYuxjAH6ybLoCg",
-      displayLink: "www.google.com",
-      snippet:
-        "Review and download historical prices and charts for Tesla Mtrs(SWX:TSLA).",
-      htmlSnippet:
-        "Review and download historical prices and charts for \u003cb\u003eTesla\u003c/b\u003e Mtrs(SWX:TSLA).",
-      cacheId: "wAddYCZaGFAJ",
-      formattedUrl:
-        "https://www.google.com/finance/historical?q=SWX:TSLA&ei...",
-      htmlFormattedUrl:
-        "https://www.google.com/finance/historical?q=SWX:TSLA&amp;ei...",
-    },
-    {
-      kind: "customsearch#result",
-      title: "TESLA EXPLORATION: OTCMKTS:TXLZF related companies ...",
-      htmlTitle:
-        "\u003cb\u003eTESLA\u003c/b\u003e EXPLORATION: OTCMKTS:TXLZF related companies ...",
-      link: "http://www.google.com/finance/related?q=OTCMKTS:TXLZF&hl=en",
-      displayLink: "www.google.com",
-      snippet:
-        "Find and compare companies related to TESLA EXPLORATION (OTCMKTS:\nTXLZF).",
-      htmlSnippet:
-        "Find and compare companies related to \u003cb\u003eTESLA\u003c/b\u003e EXPLORATION (OTCMKTS:\u003cbr\u003e\nTXLZF).",
-      cacheId: "5hgiIDOabUUJ",
-      formattedUrl: "www.google.com/finance/related?q=OTCMKTS:TXLZF&hl=en",
-      htmlFormattedUrl:
-        "www.google.com/finance/related?q=OTCMKTS:TXLZF&amp;hl=en",
     },
   ],
 };
