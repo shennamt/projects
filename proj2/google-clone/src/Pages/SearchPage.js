@@ -5,6 +5,12 @@ import useGoogleSearch from '../useGoogleSearch'
 import Response from '../response'
 import { Link } from 'react-router-dom'
 import Search from '../Components/Search'
+import SearchIcon from '@mui/icons-material/Search';
+import DescriptionIcon from '@mui/icons-material/Description';
+import ImageIcon from '@mui/icons-material/Image';
+import LocalOfferIcon from '@mui/icons-material/LocalOffer';
+import RoomIcon from '@mui/icons-material/Room';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 const SearchPage = () => {
     
@@ -37,8 +43,44 @@ const SearchPage = () => {
 
                 <div className='searchPage__headerBody'>
                     <Search hideButtons />
-                </div>
+                    <div className='searchPage__options' >
+                        <div className='searchPage__optionsLeft'>
+                            <div className='searchPage_option'>
+                                <SearchIcon />
+                                <Link to='/all'>All</Link>
+                            </div>
 
+                            <div className='searchPage_option'>
+                                <DescriptionIcon />
+                                <Link to='/news'>News</Link>
+                            </div>
+
+                            <div className='searchPage_option'>
+                                <ImageIcon />
+                                <Link to='/images'>Images</Link>
+                            </div>
+
+                            <div className='searchPage_option'>
+                                <LocalOfferIcon />
+                                <Link to='shopping'>Shopping</Link>
+                            </div>
+
+                            <div className='searchPage_option'>
+                                <RoomIcon />
+                                <Link to='maps'>Map</Link>
+                            </div>
+
+                            <div className='searchPage_option'>
+                                <MoreVertIcon />
+                                <Link to='more'>More</Link>
+                            </div>
+                        </div>
+
+                        <div className='searchPage__optionsRight'>
+
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className='searchPage__results'>
