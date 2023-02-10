@@ -1,49 +1,53 @@
 .search__input {
-    display: flex;
-    align-items: center;
-    border: 1px solid lightgray;
-    height: 30px;
-    padding: 10px 20px;
-    border-radius: 999px;
-    width: 75vw;
-    /* horizontally centered */
-    margin: 0 auto;
-    margin-top: 40px;
-    max-width: 560px;
+	display: flex;
+	align-items: center;
+	border: 1px solid lightgray;
+	height: 30px;
+	padding: 10px 20px;
+	border-radius: 999px;
+	width: 75vw;
+	/* horizontally centered */
+	margin: 0 auto;
+	margin-top: 40px;
+	max-width: 560px;
 }
 
 .search__input > input {
-    flex: 1;
-    padding: 10px 20px;
-    font-size: medium;
-    border: none;
+	flex: 1;
+	padding: 10px 20px;
+	font-size: medium;
+	border: none;
 }
 
 .search__input > input:focus {
-    outline: none;
+	outline: none;
 }
 
 .search__inputIcon {
-    color: gray;
+	color: gray;
 }
 
 .search__buttons {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
 }
 
 .search__buttons button {
-     /* top and bottom, left and right */
-    margin: 7px 15px;
-    padding: 9px 20px;
-    background-color: #F4F5F6;
-    border: 1px solid white;
-    /* makes it lowercase */
-    text-transform: inherit;
+	/* top and bottom, left and right */
+	margin: 7px 15px;
+	padding: 9px 20px;
+	background-color: #f4f5f6;
+	border: 1px solid white;
+	/* makes it lowercase */
+	text-transform: inherit;
 }
 
 .search__buttonsHidden {
-    /* to hide the buttons when resuing the component on the search results page */
-    display: none !important;
+	/* to hide the buttons when resuing the component on the search results page */
+	display: none !important;
+}
+
+.search_buttonLucky {
+	text-decoration: none;
 }

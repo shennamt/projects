@@ -18,15 +18,15 @@ const SearchPage = () => {
 	const [{ term }, dispatch] = useStateValue();
 
 	// Live API Call
-	// const { data } = useGoogleSearch(term);
+	const { data } = useGoogleSearch(term);
 
 	// Mock API Result
-	const data = Response;
+	// const data = Response;
 
 	// when i hit enter, it'll redirect us to the searchpage, push tesla search term into data layeR
 	// then we pull it using useStateValue, the term will pass through the hook useGoogleSearch
 	// then the API returns the result as an object
-	console.log(data);
+	// console.log(data);
 
 	return (
 		<div className="searchPage">
