@@ -1,8 +1,6 @@
 # SSSNake
 This game is clone variation of the ever famous [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre) "Snake Wiki"), a video game genre that gained traction after its variant was preloaded on Nokia mobile phones in 1998.
 
-Play: https://shennamt.github.io/games/snake/index.html
-
 ![STML Snake GIF](https://media1.giphy.com/media/jAqreL9Cu89mbL9Zfw/giphy.gif?cid=790b7611b6f84984879e90af2fd01d38f3f107b839662a20&rid=giphy.gif&ct=g)
   
 ## Goals & Motivations
