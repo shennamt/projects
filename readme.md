@@ -27,6 +27,3 @@ The game is not playable on phones/ devices that don't have arrow keys (yet).
 - HTML, CSS, Javascript
 - HTML Canvas for the main game space
 - JQuery
-
-## Installation
-Click https://shennamt.github.io/games/snake/index.html to play.
