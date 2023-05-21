@@ -2,6 +2,8 @@
 This game is clone variation of the ever famous [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre) "Snake Wiki"), a video game genre that gained traction after its variant was preloaded on Nokia mobile phones in 1998.
 
 ![STML Snake GIF](https://media1.giphy.com/media/jAqreL9Cu89mbL9Zfw/giphy.gif?cid=790b7611b6f84984879e90af2fd01d38f3f107b839662a20&rid=giphy.gif&ct=g)
+
+Play it here: https://shennamt.github.io/snake/
   
 ## Goals & Motivations
 The main driver of my decision to code Snake was nostalgia; I have fond memories of changing my translucent Nokia Phone's cover design, and all the fun games that came with it.
